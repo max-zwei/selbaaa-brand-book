@@ -1,8 +1,11 @@
-# Illustration guidelines
+# Illustrations guideline
 
 selba illustrations make a child's imagined world visible within a real moment. They sit on top of photography, responding to the children, objects, products, and space already in the image. **The photograph leads. The illustration adds play, meaning, and possibility.**
 
-Draft for review · 2026-10-30.
+
+**Last update**: 29 October 2026
+**Owner:** Max Pinkert, max@selbaaaa.com
+**v1.0:** Initial version
 
 Use this guide with the [brand foundation](../../BRAND.md) and [digital color palette](../../assets/colors/digital.md). The foundation governs brand intent; the palette file supplies exact color values. This guide defines illustration execution and includes a reusable generation prompt.
 
@@ -16,9 +19,8 @@ Keep the child active and respected, in line with the brand foundation. Playfuln
 
 ## 2. Direction reference
 
-![User-supplied direction reference: three children in a rain-themed photograph with white sketch overlays, including boots following a child's feet, a hat, a spade, buckets, motion marks, and repeated small ground motifs.](references/approved-photo-overlay.png)
-
-**User-supplied example of an illustration approach the brand owner would approve.** Use it to understand the relationship between drawing and photography; it is not a selba product photograph or a source of product facts.
+![reference: three children in a rain-themed photograph with white sketch overlays, including boots following a child's feet, a hat, a spade, buckets, motion marks, and repeated small ground motifs.](../assets/illustrations/reference.png)
+Use it to understand the relationship between drawing and photography; it is not a selba product photograph or a source of product facts.
 
 | What works in the reference | Apply it to selba |
 | --- | --- |
@@ -36,7 +38,7 @@ The reference does not establish a compulsory weather theme, a permanent charact
 
 Build forms from a few clear, gently irregular lines. The drawing should feel made by a hand, with enough control to remain recognizable and consistent. Simplify an object to the outline and details needed to understand it.
 
-- Use predominantly open outlines with small flat filled accents where they help the idea.
+- Use predominantly open outlines with flat fills where they help the idea.
 - Use rounded line ends and joins. Keep curves soft and the apparent line weight consistent across a series.
 - Let slight irregularity come from the drawing itself. Avoid artificial distressed textures, excessive wobble, or repeated correction strokes.
 - Keep interior details sparse. Leave the photograph visible through outlined objects.
@@ -150,7 +152,7 @@ Open the SVGs in a vector editor and check that individual paths and colors can 
 
 ## 9. Reusable generation prompt
 
-Use this prompt with a tool or workflow that can inspect the supplied images, author editable SVGs, and composite previews. Provide this guideline, `BRAND.md`, and `assets/colors/digital.md` alongside the images. Replace the four bracketed input fields; if there is no product reference for a non-product brief, explicitly enter “none.”
+Use this prompt with a tool or workflow that can inspect the supplied images, author editable SVGs, and composite previews. Provide this guideline `illustrations.md`, `BRAND.md`, and `assets/colors/digital.md` alongside the images. Replace the four bracketed input fields; if there is no product reference for a non-product brief, explicitly enter “none.”
 
 ```text
 Create a coherent series of six editable illustration overlays for selba.
@@ -268,5 +270,3 @@ External guidelines informed the structure and production discipline, not selba'
 - [Atlassian — Illustrations](https://atlassian.design/foundations/illustrations): useful precedent for making illustration serve a communication purpose and limiting visual overload. Its product-interface restrictions are not adopted here.
 - [IBM Design Language — Illustration overview](https://www.ibm.com/design/language/illustration/overview/): useful precedent for stating purpose, clarity, and consistent visual principles before execution details.
 - [IBM Design Language — Line style](https://www.ibm.com/design/language/illustration/line-style/design/): useful precedent for documenting line treatment, spacing, and color behavior. IBM's engineered grid, prescribed angles, and gradient permissions are not selba rules.
-
-External references consulted on 2026-10-30. Numeric stroke widths and a permanent motif library are not established by the supplied materials; this guide uses visual checks and series-level consistency rather than inventing them.

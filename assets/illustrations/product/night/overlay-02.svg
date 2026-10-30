@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" version="1.1">
+<title>selba Night — A brushing rhythm</title>
+<desc>Small back-and-forth marks follow brushing; a miniature stair motif echoes the actual stool beneath the child’s feet. Illustration only. Source: 02-brushing-teeth-landscape.png. Full frame; origin 0,0. All paths and solid colors editable.</desc>
+<metadata>{"source": "/Users/max/Documents/GitHub/selbaaa-brand-book/assets/imagery/products/night/02-brushing-teeth-landscape.png", "dimensions": [1536, 1024], "origin": [0, 0], "crop": null, "palette": {"night": "#0B1946", "night-sage": "#BDDC9F", "screen": "#FFFFFF"}}</metadata>
+<g id="illustration-02" transform="scale(1.706666666666667)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+<g id="toothbrush-rhythm">
+<path id="brush-outward" data-color-token="night" d="M 258 100 Q 272 93 282 100" stroke="#0B1946" fill="none"/>
+<path id="brush-return" data-color-token="night" d="M 260 116 Q 272 111 280 116" stroke="#0B1946" fill="none"/>
+<path id="brush-short-beat" data-color-token="night" d="M 270 131 Q 277 128 283 130" stroke="#0B1946" fill="none"/>
+</g><g id="stool-little-stair">
+<path id="stool-stair" data-color-token="screen" d="M 339 534 Q 352 535 360 534 L 360 519 Q 360 516 363 516 L 380 516 L 380 500 Q 380 497 384 497 L 402 498 L 402 484 Q 402 481 405 481 L 419 482" stroke="#FFFFFF" fill="none"/>
+<path id="stool-low-arch" data-color-token="screen" d="M 336 550 C 336 541 349 541 350 550" stroke="#FFFFFF" fill="none"/>
+</g><g id="small-flat-accents">
+<path id="brush-dot" data-color-token="night" d="M 247.2 111 C 247.2 107.2 253.2 107.5 253 111 C 253 114.5 247.2 114.5 247.2 111 Z" stroke="none" fill="#0B1946"/>
+<path id="next-step-spark" data-color-token="night-sage" d="M 419 462 Q 420 466 424 467 Q 420 468 419 472 Q 418 468 414 467 Q 418 466 419 462 Z" stroke="none" fill="#BDDC9F"/>
+</g>
+</g>
+</svg>

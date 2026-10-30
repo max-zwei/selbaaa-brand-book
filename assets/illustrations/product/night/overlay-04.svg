@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536" version="1.1">
+<title>selba Night — One more page</title>
+<desc>Two soft arcs follow the lifted page. A pair of tiny arch-shaped paper flights carries the page-turn rhythm into the open space above it. Illustration only. Source: 05-turning-the-page-portrait.png. Full frame; origin 0,0. All paths and solid colors editable.</desc>
+<metadata>{"source": "/Users/max/Documents/GitHub/selbaaa-brand-book/assets/imagery/products/night/05-turning-the-page-portrait.png", "dimensions": [1024, 1536], "origin": [0, 0], "crop": null, "palette": {"night": "#0B1946", "night-sand": "#D7C9C2", "screen": "#FFFFFF"}}</metadata>
+<g id="illustration-04" transform="scale(1.706666666666667)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+<g id="lifted-page-arcs">
+<path id="outer-turn" data-color-token="screen" d="M 542 439 C 558 469 551 503 535 524" stroke="#FFFFFF" fill="none"/>
+<path id="short-turn" data-color-token="screen" d="M 558 446 Q 568 470 561 489" stroke="#FFFFFF" fill="none"/>
+<path id="page-tip-breath" data-color-token="night" d="M 510 362 Q 517 354 519 344" stroke="#0B1946" fill="none"/>
+</g><g id="page-arch-flights">
+<path id="near-paper-flight" data-color-token="night" d="M 464 345 Q 474 328 484 343 Q 496 327 506 339" stroke="#0B1946" fill="none"/>
+<path id="far-paper-flight" data-color-token="night" d="M 438 318 Q 445 305 453 316 Q 462 303 469 311" stroke="#0B1946" fill="none"/>
+</g><g id="small-flat-accents">
+<path id="page-spark" data-color-token="night-sand" d="M 538 397 Q 539 401 543 402 Q 539 403 538 407 Q 537 403 533 402 Q 537 401 538 397 Z" stroke="none" fill="#D7C9C2"/>
+<path id="page-seed" data-color-token="night" d="M 477.2 320 C 477.2 316.2 483.2 316.5 483 320 C 483 323.5 477.2 323.5 477.2 320 Z" stroke="none" fill="#0B1946"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" version="1.1">
+<title>selba Night — One stone, a little path</title>
+<desc>A gently climbing imagined path begins beside the first real stone; one small part of the bedtime routine at a time. Illustration only. Source: 01-bedroom-first-stone-landscape.png. Full frame; origin 0,0. All paths and solid colors editable.</desc>
+<metadata>{"source": "/Users/max/Documents/GitHub/selbaaa-brand-book/assets/imagery/products/night/01-bedroom-first-stone-landscape.png", "dimensions": [1536, 1024], "origin": [0, 0], "crop": null, "palette": {"night-sage": "#BDDC9F", "night-sand": "#D7C9C2", "screen": "#FFFFFF"}}</metadata>
+<g id="illustration-01" transform="scale(1.706666666666667)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+<g id="stone-to-drawer-path">
+<path id="path-from-first-stone" data-color-token="screen" d="M 617 405 L 620 405 L 643 404 Q 646 404 646 401 L 646 390 Q 646 387 649 387 L 672 388 Q 675 388 675 385 L 675 374" stroke="#FFFFFF" fill="none"/>
+<path id="arch-next-step" data-color-token="screen" d="M 689 389 L 702 390 C 703 365 733 364 735 391 L 749 392" stroke="#FFFFFF" fill="none"/>
+<path id="small-path-ending" data-color-token="night-sand" d="M 757 392 Q 764 393 770 391" stroke="#D7C9C2" fill="none"/>
+</g><g id="placing-rhythm">
+<path id="gentle-tap-a" data-color-token="night-sand" d="M 716 309 Q 720 303 726 301" stroke="#D7C9C2" fill="none"/>
+<path id="gentle-tap-b" data-color-token="night-sand" d="M 717 319 L 728 317" stroke="#D7C9C2" fill="none"/>
+</g><g id="small-flat-accents">
+<path id="step-seed" data-color-token="night-sage" d="M 679.2 400 C 679.2 396.2 685.2 396.5 685 400 C 685 403.5 679.2 403.5 679.2 400 Z" stroke="none" fill="#BDDC9F"/>
+<path id="arch-spark" data-color-token="night-sage" d="M 743 364 Q 744 368 748 369 Q 744 370 743 374 Q 742 370 738 369 Q 742 368 743 364 Z" stroke="none" fill="#BDDC9F"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" version="1.1">
+<title>selba Night — The last little step</title>
+<desc>A quiet miniature stair, arch, and resting moon sit beside the completed stack: the series’ shared shapes come together without changing the product. Illustration only. Source: 07-final-stone-detail-landscape.png. Full frame; origin 0,0. All paths and solid colors editable.</desc>
+<metadata>{"source": "/Users/max/Documents/GitHub/selbaaa-brand-book/assets/imagery/products/night/07-final-stone-detail-landscape.png", "dimensions": [1536, 1024], "origin": [0, 0], "crop": null, "palette": {"night-lavender": "#B0AEC9", "night-sage": "#BDDC9F", "night-sand": "#D7C9C2", "screen": "#FFFFFF"}}</metadata>
+<g id="illustration-06" transform="scale(1.706666666666667)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+<g id="last-stone-settling">
+<path id="settle-near" data-color-token="night-sand" d="M 687 293 Q 691 301 689 308" stroke="#D7C9C2" fill="none"/>
+<path id="settle-far" data-color-token="night-sand" d="M 701 299 Q 705 310 702 319" stroke="#D7C9C2" fill="none"/>
+</g><g id="bedtime-path-at-rest">
+<path id="last-little-stair" data-color-token="screen" d="M 706 365 L 718 364 L 718 352 Q 718 350 721 350 L 733 350 L 733 338" stroke="#FFFFFF" fill="none"/>
+<path id="last-low-arch" data-color-token="screen" d="M 741 351 C 741 327 772 324 775 347 L 784 347" stroke="#FFFFFF" fill="none"/>
+<path id="path-ending" data-color-token="screen" d="M 789 347 Q 795 348 800 345" stroke="#FFFFFF" fill="none"/>
+</g><g id="resting-book-moon">
+<path id="resting-crescent" data-color-token="night-sand" d="M 764 285 C 748 286 744 304 753 313 C 761 321 772 319 778 312 C 764 315 754 299 764 285 Z" stroke="#D7C9C2" fill="none"/>
+</g><g id="small-flat-accents">
+<path id="final-spark" data-color-token="night-sage" d="M 787 289 Q 788 293 792 294 Q 788 295 787 299 Q 786 295 782 294 Q 786 293 787 289 Z" stroke="none" fill="#BDDC9F"/>
+<path id="last-seed" data-color-token="night-lavender" d="M 730.2 373 C 730.2 369.2 736.2 369.5 736 373 C 736 376.5 730.2 376.5 730.2 373 Z" stroke="none" fill="#B0AEC9"/>
+</g>
+</g>
+</svg>

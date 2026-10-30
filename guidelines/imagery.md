@@ -1,4 +1,4 @@
-# selba imagery
+# Imagery guideline
 
 **Let kids be kids. Show the world they are absorbed in.**
 
@@ -6,7 +6,9 @@ Our imagery gives form to a core ambition: confident children who have room to e
 
 This guide covers lifestyle photography and images generated with a photographic appearance. Use it when briefing, making or selecting images. It develops the intent in [BRAND.md](../../BRAND.md); the [digital colour palette](../../assets/colors/digital.md) remains the source for colour values. Product specifications govern how a product may be depicted.
 
-Last revised: 30 October 2026.
+**Last update**: 30 October 2026
+**Owner:** Max Pinkert, max@selbaaaa.com
+**v1.0:** Initial version
 
 ## 1. The moment we want to see
 
@@ -42,15 +44,15 @@ The palette is a reference for selecting and styling a scene. Preserve believabl
 
 For Morning and Day, favour natural window light, with visible detail in faces and a bright, clear feeling. Avoid an overall yellow or orange cast, exaggerated golden-hour warmth, harsh advertising-style highlights and heavy filters. Keep colour lively without making skin or materials look artificial.
 
-The following direction applies the foundation's instruction to match energy to the moment through the three existing palettes.
+The following direction applies the foundation's instruction to match energy to the moment through the three existing palettes based on [digital.md](/assets/colors/digital.md)
 
 | Range | Mood and activity | Light and colour direction | Palette reference |
 | --- | --- | --- | --- |
-| **Morning** | Fresh, curious and gently energetic. Show the invitation to begin or take part, with time for the child to try. | Clear, fresh light. Yellow, pink, blue and lime give the scene lift; keep the energy welcoming rather than rushed. | `morning` #F5D91B · `morning-pink` #F77EAD · `morning-blue` #499ACD · `morning-lime` #BBE132 |
-| **Day — default** | Bright, playful and absorbed. Children have room to follow an idea and enjoy what they are doing. | Bright natural light with balanced whites. Green, blue, coral and purple support a lively everyday scene without exaggerated saturation. | `day` #00CC99 · `day-blue` #18498F · `day-coral` #FF7852 · `day-purple` #AC5BAC |
-| **Night** | Calm, reassuring and winding down. Show quiet participation and closeness at the child's pace. | Softer, lower-key indoor evening light with readable faces and activity. Navy creates depth; lavender, sage and sand soften the atmosphere. Keep warmth restrained and avoid an overall orange or blue cast. | `night` #0B1946 · `night-lavender` #B0AEC9 · `night-sage` #BDDC9F · `night-sand` #D7C9C2 |
+| **Morning** | Fresh, curious and gently energetic. Show the invitation to begin or take part, with time for the child to try. | Clear, fresh light. Yellow, pink, blue and lime give the scene lift; keep the energy welcoming rather than rushed. | `morning`, `morning-pink`, `morning-blue`, `morning-lime`|
+| **Day — default** | Bright, playful and absorbed. Children have room to follow an idea and enjoy what they are doing. | Bright natural light with balanced whites. Green, blue, coral and purple support a lively everyday scene without exaggerated saturation. | `day`,`day-blue`,`day-coral`,`day-purple` |
+| **Night** | Calm, reassuring and winding down. Show quiet participation and closeness at the child's pace. | Softer, lower-key indoor evening light with readable faces and activity. Navy creates depth; lavender, sage and sand soften the atmosphere. Keep warmth restrained and avoid an overall orange or blue cast. | `night`, `night-lavender`, `night-sage`, `night-sand` |
 
-The shared primary colour is `primary` — `#EB341B`; the neutrals are `ink` — `#1E1E1E` and `screen` — `#FFFFFF`. They remain available within the wider brand palette. The selected range should guide the image; a scene does not need to display every swatch. Exact HEX values are digital references, not requirements for individual photographed pixels. Verify values against the linked palette when preparing a new brief.
+The shared primary colour is `primary`; the neutrals are `ink` and `screen`. They remain available within the wider brand palette. The selected range should guide the image; a scene does not need to display every swatch. Exact HEX values are digital references, not requirements for individual photographed pixels. Verify values against the linked palette when preparing a new brief.
 
 ## 4. The product belongs in the moment
 
@@ -80,9 +82,9 @@ Variation comes from different moments, framing and details within this shared w
 
 ## 6. Approved visual reference
 
-![Two children absorbed in drawing, surrounded by a pencil case, a cup, textiles and other belongings.](../../assets/imagery/reference-children-absorbed.png)
+![Two children absorbed in drawing, surrounded by a pencil case, a cup, textiles and other belongings.](../../assets/imagery/reference.png)
 
-*User-supplied reference, approved as a direction for attention, expression, colour, light and everyday clutter. The outdoor setting is an exception in this reference; selba scenes are indoors.*
+*approved as a direction for attention, expression, colour, light and everyday clutter. The outdoor setting is an exception in this reference; selba scenes are indoors.*
 
 | What to carry into selba imagery | What it means in practice |
 | --- | --- |
@@ -114,7 +116,7 @@ For generated imagery, also inspect faces, hands, bodies, contact between people
 
 ## 8. Reusable image-generation prompt
 
-Provide the product photographs as actual image inputs, not only filenames. Include this guideline and the current palette when the image tool can read files. The prompt below also carries the core direction for use on its own.
+Provide the product photographs as actual image inputs, not only filenames. Provide this guideline `imagery.md`, `BRAND.md`, and `assets/colors/digital.md` alongside the images. The prompt below also carries the core direction for use on its own.
 
 ```text
 Create a coherent series of 8 separate photographic lifestyle images for selba.
@@ -174,14 +176,12 @@ Avoid a showroom, an empty set or an artfully arranged pile of props.
 MOOD, LIGHT AND COLOUR
 Use only the selected range as the main mood direction:
 - Morning: fresh, curious and gently energetic; clear natural light.
-  Yellow #F5D91B, pink #F77EAD, blue #499ACD, lime #BBE132.
 - Day (default): bright, playful and absorbed; bright natural light with
-  balanced whites. Green #00CC99, blue #18498F, coral #FF7852, purple #AC5BAC.
+  balanced whites.
 - Night: calm, reassuring and winding down; softer, lower-key indoor evening
-  light that keeps faces and activity readable. Navy #0B1946, lavender
-  #B0AEC9, sage #BDDC9F, sand #D7C9C2.
-Shared brand colours: primary #EB341B, ink #1E1E1E, screen #FFFFFF.
-If a newer supplied palette differs, use that palette's values.
+  light that keeps faces and activity readable.
+Shared brand colours: primary, ink, screen.
+Use the provided color palette as inspiration.
 
 Bring range colours into believable clothes, textiles and objects; do not
 require every swatch in every frame. Preserve natural skin, material and
@@ -250,5 +250,3 @@ Published guidelines informed the practical treatment of expression, setting, li
 - [Telenor — Brand Photography](https://brand.telenor.com/group/identity/imagery): observed moments, unforced expressions, everyday detail and devices remaining secondary to the human story.
 - [University of Cambridge — Photography](https://www.cam.ac.uk/brand-resources/guidelines/photography): people absorbed in their own environments, natural light and a clear focal point with enough context.
 - [Motorola Solutions — Photography](https://brand-guidelines.motorolasolutions.com/photography): a varied set of establishing, human-action and in-situation views; products can appear naturally in use or at rest when appropriate.
-
-External references accessed 30 October 2026. Their separate rules on AI, casting, licensing, sectors and brand-specific colour treatments have not been adopted here.

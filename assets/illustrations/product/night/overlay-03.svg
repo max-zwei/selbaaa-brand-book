@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" version="1.1">
+<title>selba Night — A bridge into the story</title>
+<desc>An open, arched path continues from the book’s spine onto the duvet, echoing the rounded middle stone and the story’s night sky. Illustration only. Source: 04-shared-story-landscape.png. Full frame; origin 0,0. All paths and solid colors editable.</desc>
+<metadata>{"source": "/Users/max/Documents/GitHub/selbaaa-brand-book/assets/imagery/products/night/04-shared-story-landscape.png", "dimensions": [1536, 1024], "origin": [0, 0], "crop": null, "palette": {"night-lavender": "#B0AEC9", "night-sage": "#BDDC9F", "night-sand": "#D7C9C2", "screen": "#FFFFFF"}}</metadata>
+<g id="illustration-03" transform="scale(1.706666666666667)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+<g id="book-spine-story-bridge">
+<path id="bridge-top" data-color-token="screen" d="M 393 430 C 373 435 364 447 351 456 C 335 468 315 474 293 475 L 276 476" stroke="#FFFFFF" fill="none"/>
+<path id="bridge-open-arches" data-color-token="screen" d="M 282 490 C 281 470 304 469 305 487 M 315 486 C 313 465 337 460 341 478 M 351 472 C 345 454 366 443 373 458" stroke="#FFFFFF" fill="none"/>
+<path id="bridge-step-entry" data-color-token="screen" d="M 254 493 L 268 492 L 268 483 L 278 483" stroke="#FFFFFF" fill="none"/>
+</g><g id="book-moon-echo">
+<path id="small-crescent" data-color-token="night-sand" d="M 230 444 C 215 447 211 466 222 475 C 230 482 240 480 245 474 C 232 475 223 459 230 444 Z" stroke="#D7C9C2" fill="none"/>
+</g><g id="small-flat-accents">
+<path id="story-spark" data-color-token="night-sage" d="M 259 452 Q 260 456 264 457 Q 260 458 259 462 Q 258 458 254 457 Q 258 456 259 452 Z" stroke="none" fill="#BDDC9F"/>
+<path id="bridge-seed" data-color-token="night-lavender" d="M 321.2 496 C 321.2 492.2 327.2 492.5 327 496 C 327 499.5 321.2 499.5 321.2 496 Z" stroke="none" fill="#B0AEC9"/>
+</g>
+</g>
+</svg>

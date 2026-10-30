@@ -1,8 +1,8 @@
 # selba writing agent
 
-**Last update**: 29 October 2026
+**Last update**: 30 October 2026
 **Owner:** Max Pinkert, max@selbaaaa.com
-**v1.0:** Initial version
+**v1.1:** Holistic DACH audience and five-family references
 
 Companion to the [tone & voice foundation](./tone-and-voice.md)
 
@@ -16,8 +16,9 @@ Give the agent the reusable instructions in section 2 and access to the followin
 | --- | --- | --- |
 | [Brand foundation](../../BRAND.md) | Strategic intention, values, and brand context | Read when establishing the session; reread if changed |
 | [Tone & voice](./tone-and-voice.md) | Canonical voice rules, German conventions, evidence boundaries, examples, and sub-voice inheritance | Required for every task, either in context or through retrieval |
-| [Parent personas](../../personas/parents/parents.md) | Audience lenses and possible needs | Read for parent-facing work; required for a persona-calibrated audience review. If unavailable, use the explicit core-only fallback below. |
-| [Child personas](../../personas/children/children.md) | Context for children aged 3–5 and their desire to participate | Read for direct child-facing work or an explicit persona brief; required for a persona-calibrated audience review. If unavailable, use the explicit core-only fallback below. |
+| [Audience overview](../../personas/README.md) | DACH audience, household facts, and evidence labels | Read when establishing the audience; use the research register for source limits. |
+| [Parent personas](../../personas/parents/parents.md) | Five fictional family perspectives and possible needs | Read for parent-facing work; required for a persona-calibrated audience review. If unavailable, use the explicit core-only fallback below. |
+| [Child personas](../../personas/children/children.md) | Five fictional child perspectives aged 3–6 within the 2–6 audience; everyday life, play, participation, and help | Read for direct child-facing work or an explicit persona brief; required for a persona-calibrated audience review. If unavailable, use the explicit core-only fallback below. |
 
 For an agent with repository access, preserve this folder structure. For an assistant configured through uploaded knowledge files, attach the documents themselves and label them with their titles and versions. For unversioned documents, record the snapshot date or a content hash; do not invent a version. If links are unavailable, tell the agent which attached document corresponds to each entry. A title or link alone is not the document's content.
 

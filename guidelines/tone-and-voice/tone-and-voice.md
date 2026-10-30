@@ -1,8 +1,8 @@
 # selba tone & voice
 
-**Last update**: 29 October 2026
+**Last update**: 30 October 2026
 **Owner:** Max Pinkert, max@selbaaaa.com
-**v1.0:** Initial version
+**v1.1:** Holistic DACH audience and five-family references
 
 For people writing for selba and agents helping them. Instructions and explanations are in English; original copy examples are in German. This is an editorial system informed by research, not a scientifically validated communication intervention.
 
@@ -47,21 +47,23 @@ selba is a capable, observant companion in the practical work of family life. We
 
 Parents are the primary audience. Write for adults who can make judgments and may have very little time for us. Some want an explanation; others need the answer in one sentence. Time pressure is a possibility to accommodate, not an identity to assign to every parent.
 
-The supplied [parent personas](../../personas/parents/parents.md) give three useful editorial lenses:
+The supplied [parent personas](../../personas/parents/parents.md) give five editorial lenses across ordinary family life. Use the [audience overview](../../personas/README.md) for household facts and the [research register](../../personas/research.md) for evidence and limits.
 
 | Lens | What to make available | What not to copy |
 | --- | --- | --- |
-| Julia | A visible distinction between a real benefit and a marketing claim; room to question the offer | Her marketing jargon, self-deprecating confessions, or presumed screen guilt |
-| Sabine | A short, specific answer; uncomplicated use; honest limitations | Her clinical vocabulary or beliefs about stimulation as if they were established facts |
-| Tobias | A clear sequence, conditions, and enough information to judge fit and value | A view of children as processes to optimize, or consistency as a test of parental worth |
+| Julia | A visible use and realistic effort; room for personal ambitions as well as family life | Presumed guilt, compulsory marketing jargon, or a permanently overwhelmed identity |
+| Sabine | Specific use, upkeep, and room to adapt; respect for existing workarounds | Clinical explanations, moral judgments about materials, or a rigid “less stuff” doctrine |
+| Tobias | Understandable handovers, flexibility, and enough information to judge fit | Treating children as processes, every outing as an achievement, or adult plans as the only good outcome |
+| Aylin | The full commitment, including setup and total cost; respect for personal priorities | Pity, “only €30,” or assuming another adult is always available |
+| Daniel | Language that works across households; responsibility with support available | Assuming one home, parental conflict, or a need to compensate with purchases |
 
-These are authored personas, not interview findings. Their percentages, opinions, and invented histories are not evidence about German parents. The audience description does not justify assuming that every reader is a mother, partnered, affluent, neurotypical, or raising a child on a standard developmental timetable.
+These are fictional profiles, not interview findings or measured segments. Research supports identified patterns within its stated limits; biographies, quotations, and simulated reactions remain invented. The audience description does not justify assuming every reader is a mother, partnered, affluent, neurotypical, or raising a child on a standard developmental timetable.
 
 ### Children's place in the voice
 
 Children are central to what we make and how we speak about it. They are rarely the readers of the brand's adult-facing communication. Do not use a child's speaking style to address their parent.
 
-The [child personas](../../personas/children/children.md) suggest sensitivity to being taken seriously and wanting to try things independently. Treat that as a design prompt, not a universal developmental finding. Direct child-facing language should describe something visible, offer a manageable invitation, and make help available. It does not need exaggerated excitement. Spoken examples must also make sense without written emphasis or punctuation.
+The [child personas](../../personas/children/children.md), aged 3–6 within the broader 2–6 audience, explore play, friendship, ownership, participation, and choosing help across everyday situations. Treat that as a design prompt, not a universal developmental finding. Direct child-facing language should describe something visible, offer a manageable invitation, and make help available. It does not need exaggerated excitement. Spoken examples must also make sense without written emphasis or punctuation.
 
 Independence includes choosing help. A child who does something with support has not failed the brand promise.
 

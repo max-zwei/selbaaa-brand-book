@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536" version="1.1">
+<title>selba Night — A little shelter</title>
+<desc>The blanket becomes a tiny imagined shelter for the rabbit, following the child’s real act of tucking it in. Illustration only. Source: 06-tucking-in-rabbit-portrait.png. Full frame; origin 0,0. All paths and solid colors editable.</desc>
+<metadata>{"source": "/Users/max/Documents/GitHub/selbaaa-brand-book/assets/imagery/products/night/06-tucking-in-rabbit-portrait.png", "dimensions": [1024, 1536], "origin": [0, 0], "crop": null, "palette": {"night-sage": "#BDDC9F", "night-sand": "#D7C9C2", "screen": "#FFFFFF"}}</metadata>
+<g id="illustration-05" transform="scale(1.706666666666667)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+<g id="blanket-imagined-shelter">
+<path id="blanket-roof" data-color-token="screen" d="M 407 531 L 442 499 Q 447 495 452 500 L 486 531" stroke="#FFFFFF" fill="none"/>
+<path id="shelter-left-break" data-color-token="screen" d="M 414 535 L 415 551 L 431 552" stroke="#FFFFFF" fill="none"/>
+<path id="shelter-doorway" data-color-token="screen" d="M 438 555 L 438 544 C 438 527 461 528 461 544 L 461 558" stroke="#FFFFFF" fill="none"/>
+<path id="shelter-right-break" data-color-token="screen" d="M 470 560 L 486 561 L 485 542" stroke="#FFFFFF" fill="none"/>
+</g><g id="blanket-tucking-rhythm">
+<path id="tuck-near-hand" data-color-token="screen" d="M 383 488 Q 388 498 396 502" stroke="#FFFFFF" fill="none"/>
+<path id="tuck-second-fold" data-color-token="screen" d="M 382 502 Q 386 511 393 515" stroke="#FFFFFF" fill="none"/>
+<path id="roof-small-step" data-color-token="night-sand" d="M 493 533 L 500 533 L 500 542 L 507 542" stroke="#D7C9C2" fill="none"/>
+</g><g id="small-flat-accents">
+<path id="shelter-spark" data-color-token="night-sand" d="M 474 494 Q 475 498 479 499 Q 475 500 474 504 Q 473 500 469 499 Q 473 498 474 494 Z" stroke="none" fill="#D7C9C2"/>
+<path id="blanket-seed" data-color-token="night-sage" d="M 400.2 548 C 400.2 544.2 406.2 544.5 406 548 C 406 551.5 400.2 551.5 400.2 548 Z" stroke="none" fill="#BDDC9F"/>
+</g>
+</g>
+</svg>

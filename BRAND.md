@@ -4,9 +4,9 @@ selba creates simple, playful tools that give children room to explore, try, and
 
 This is the starting point for anyone making products, designs, copy, or decisions for selba, including agents. It defines the brand's enduring intent and application principles. Detailed execution belongs in the linked guidelines and assets.
 
-**Last update**: 29 October 2026
+**Last update**: 30 October 2026
 **Owner:** Max Pinkert, max@selbaaaa.com
-**v1.0:** Initial version
+**v1.1:** DACH audience, holistic family profiles, and research provenance
 
 **Navigate:** [Core](#brand-core) · [Audiences](#audiences) · [Positioning](#positioning-and-promises) · [Values](#values-in-practice) · [Expression](#brand-expression) · [Evidence](#claims-and-evidence) · [References](#brand-book-reference-map) · [Review](#application-check)
 
@@ -43,22 +43,27 @@ A child has room to choose, attempt, discover, and ask for help. Adults provide 
 
 ## Audiences
 
-Our current working focus is families in Germany, with children aged **3–5 years** represented in the personas. This is a planning focus, not a product age rating or a restriction on which families belong.
+- **Market:** German-speaking families across Germany, Austria, and Switzerland.
+- **Child audience:** Ages **2–6**; named interview personas aged **3–6**. Siblings aged 0–7 provide household context, not additional targeting. Audience age is not a product age rating.
+- **Perspective:** Whole family life: work, care, friendships, play, meals, errands, personal interests, downtime, and weekends.
+- **Commercial context:** Typical intended product range **€20–40**, supplied by the founder. No fixed household-income cutoff, buyer-gender ratio, validated willingness-to-pay threshold, or assumed Swiss retail price.
 
-| Audience and role | Need to design for | What the brand must offer |
+| Audience and role | Recognizable tension | What the brand must offer |
 | --- | --- | --- |
-| Children: participants and users | Play, exploration, interaction, comfort, and the chance to try | An understandable invitation to participate, room for trial and error, and support when needed |
-| Parents and caregivers: purchasers and supporters | Manageable days, confidence in their choices, and useful tools with little extra effort | A clear purpose, an easy way to begin, honest expectations, and respect for their time |
+| Children: participants and users | Wants to carry the bag; hands it back when it becomes heavy; still wants a meaningful part | An understandable invitation, room to choose and try, and help without losing ownership of the attempt |
+| Parents and caregivers: people, purchasers, and supporters | Wants to let the child finish; takes over when departure time arrives; also wants work, friends, hobbies, and enjoyable family time | A clear purpose, proportionate effort, honest expectations, and respect for different household arrangements |
 
-Design for both: a parent's ease and a child's active participation must work together. Do not solve adult convenience by treating the child as a problem to control.
-
-The [parent personas](personas/parents/parents.md) and [child personas](personas/children/children.md) support planning. Treat their demographics, opinions, and stories as assumptions unless linked to research. Do not use them as population statistics, testimonials, or product evidence. The accompanying `AGENT.md` files are prompts for simulated interviews; use them only for that task and identify their output as simulation.
+- **Examples:** Fictional illustrations of tensions, not observed customer stories.
+- **Design for both:** A parent's ease and a child's active participation must work together; do not treat the child as a problem to control.
+- **Start with the [audience overview](personas/README.md):** Five fictional families across DACH; [parent profiles](personas/parents/parents.md), [child profiles](personas/children/children.md), and a [research register](personas/research.md).
+- **Evidence:** Distinguish research findings, brand decisions, hypotheses, and fictional persona details. Sources inform patterns; they do not establish the cast's biographies, market prevalence, or product effectiveness.
+- **Interview agents:** The adjacent persona `AGENT.md` files apply only to explicitly requested hypothetical interviews; identify outputs as simulations, never testimonials or customer validation.
 
 ## Positioning and promises
 
 ### Internal positioning
 
-For parents in Germany who want to support their children's independence within busy daily life, selba develops simple, playful tools that let children take an active role in everyday challenges. Our approach brings together familiar play, research-informed development, and ease of use for families.
+For parents across German-speaking DACH who want to support their children's independence within busy daily life, selba develops simple, playful tools that let children take an active role in everyday challenges. Our approach brings together familiar play, research-informed development, and ease of use for families.
 
 Research-informed development is a commitment to the process in our mission. Any public claim that a product is research-backed needs a documented basis.
 
@@ -110,7 +115,7 @@ Our voice is caring, patient, clear, and capable of quiet humor. Address parents
 
 These examples illustrate tone. Product copy still needs concrete, verified instructions and facts.
 
-Use everyday language. Explain relevant ideas without lecturing parents or assuming how they feel. Humor is optional; leave it out in complaints, distress, and safety concerns. It must not come at the expense of a child or parent. Prefer German for the current German audience unless the brief specifies another language. The [tone and voice guide](guidelines/tone-and-voice/tone-and-voice.md) defines the detailed writing rules.
+Use everyday language. Explain relevant ideas without lecturing parents or assuming how they feel. Humor is optional; leave it out in complaints, distress, and safety concerns. It must not come at the expense of a child or parent. Prefer German for the current German-speaking DACH audience unless the brief specifies another language. The [tone and voice guide](guidelines/tone-and-voice/tone-and-voice.md) defines the detailed writing rules.
 
 ### Name and core message
 
@@ -124,7 +129,7 @@ Use everyday language. Explain relevant ideas without lecturing parents or assum
 
 Make the experience inviting for children and understandable for parents. Use playful forms and recognizable cues with a clear hierarchy. Show care through legibility, spacing, and consistent execution.
 
-- **Typography:** Selba is the primary typeface; Figtree is the secondary typeface. Detailed roles, sizes, fallbacks, and usage rules belong in the design guidelines (/guidelines/DESIGN.md/...).
+- **Typography:** Selba is the primary typeface; Figtree is the fallback typeface whenever Selba isn't available. Detailed roles, sizes, fallbacks, and usage rules belong in the design guidelines (/guidelines/DESIGN.md/...).
 - **Color:** Use the documented palette and its Morning, Day, and Night groups. Exact values belong in the [color files](assets/colors/). Palette membership alone does not establish a readable text/background combination; check the actual use.
 - **Imagery and illustration:** Prefer confident children participating, exploring, and trying, with support visible when appropriate. Avoid staging independence as a performance or presenting parents as inadequate. [imagery](assets/imagery/) and [illustrations](assets/illustrations/)
 - **Logo and graphic assets:** Use supplied assets according to their documented rules. [logo](assets/logo/) and [icons](assets/icons/)
@@ -151,13 +156,13 @@ Paths are relative to the repository root. Keep detailed rules in their own file
 
 | Resource | What it supplies | State at this revision |
 | --- | --- | --- |
-| [Parents](personas/parents/parents.md) · [Children](personas/children/children.md) | Audience context and planning assumptions | Written personas; research provenance is not supplied |
+| [Audience overview](personas/README.md) · [Parents](personas/parents/parents.md) · [Children](personas/children/children.md) · [Research](personas/research.md) | Audience definition, five fictional families, evidence and limits | DACH focus, ages 2–6; source-linked patterns with explicitly fictional profiles; two interview agents |
 | [Tone and voice](guidelines/tone-and-voice/tone-and-voice.md) · [Writing agent](guidelines/tone-and-voice/AGENT.md) | Writing rules, examples, and agent setup | Written guide and companion instructions; examples do not establish product facts |
-| [Selba fonts](assets/fonts/Selba/) · `assets/fonts/Figtree/` | Typeface files | Selba Regular and Bold are present; Figtree folder is empty |
+| [Font fonts](assets/fonts) | Typeface files | font files |
 | [Digital colors](assets/colors/digital.md) · [Print colors](assets/colors/print.md) | Palette values | Both currently contain HEX values; print reproduction specifications are not defined |
 | `assets/logo/` · `assets/imagery/` · `assets/icons/` · `assets/illustrations/` | Visual assets | Folders are empty; usage rules are not defined |
 | [Digital design](guidelines/DESIGN.md/digital.md) · [Print design](guidelines/DESIGN.md/print.md) | Channel-specific design rules | Empty placeholders |
-| [Schlafsteine product](guidelines/DESIGN.md/products/Schlafsteine/product.md) · [Packaging](guidelines/DESIGN.md/products/Schlafsteine/packaging.md) | Product-specific rules | Empty placeholders; product details in persona prompts are concept context |
+| [Schlafsteine product](guidelines/DESIGN.md/products/Schlafsteine/product.md) · [Packaging](guidelines/DESIGN.md/products/Schlafsteine/packaging.md) | Product-specific rules | Empty placeholders; no product specifications or capabilities established |
 | [Presentation to show](templates/pitch_show.md) · [Presentation to read](templates/pitch_read.md) | Reusable applications | Empty placeholders |
 | [BRANDBOOK.md](BRANDBOOK.md) | Companion brand book | Empty placeholder |
 

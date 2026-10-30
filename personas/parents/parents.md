@@ -1,140 +1,242 @@
-**Last update**: 29 October 2026
-**Owner:** Max Pinkert, max@selbaaaa.com
-**v1.0:** Initial version
+# Parent personas — five lives, not five buying stereotypes
+
+- **Updated:** 30 October 2026 · **Version:** 2.0 · **Owner:** Max Pinkert
+- **Start here:** [Audience overview and household facts](../README.md) · [Children](../children/children.md) · [Research](../research.md) · [Interview agent](AGENT.md)
+
+- **Use:** Recognize situations, question assumptions, and explore reactions. No market shares, buyer-gender ratio, income cutoff, or claim of typicality.
+- **Language:** German illustrative speech; English reference notes. Persona voices are not selba's brand voice.
+
+## Quick comparison
+
+| Person | Wants more of | What gets in the way | Often protects | Can change their mind when |
+| --- | --- | --- | --- | --- |
+| Julia | Interesting work, a longer run, uninterrupted attention for each child | Competing needs and a tendency to squeeze one more thing into a gap | A short run; Emil's explanation before correcting him | A concrete example shows less work than she expected |
+| Sabine | Choir, meals together, room to make things | Conflicting family preferences; her own high standards for keeping things usable | Thursday choir when Jan covers; a Saturday coffee | Trying something reveals a use she could not see in a description |
+| Tobias | A proper hike, a finished repair, time with Anja | Shift changes; two children needing different kinds of attention | A weekend outing, even if it becomes much shorter | The children make a better plan than his |
+| Aylin | Dance, a qualification, time with a friend as an adult | Fixed care cover and several good uses for the same money | Agreed time with her mother; a planned class | Actual usefulness outweighs an initially unpromising appearance |
+| Daniel | Music, dependable co-parenting, ordinary time with Nora | Two households, a tendency to overplan their time together | Nora's connection with both homes; a rehearsal | Nora explains a preference he had dismissed as a detail |
+
+## Julia
+
+- **Recognize her:** Wants to enter a 10 km race; currently manages a 3 km run and a 4 km Sunday loop she calls the long one. Has saved the registration page but not entered.
+- **Household:** F01 · 34 · Leipzig · partner Tom, 36 · Emil, 3 · Leni, 8 months.
+- **Work / care:** Brand manager, 24 hours over three days; baby care covered by Tom on one day and arranged care on two; Tom works reduced hours in an architecture practice.
+- **Home:** Rented apartment; no spare playroom; Emil's construction often occupies the route to the kitchen.
+
+### Weekday and weekend
+
+- Packs the bag while Emil puts on his shoes; lets him try the fastening until they need to leave.
+- Enjoys a work discussion that has nothing to do with children; loses her place when a care message arrives.
+- Uses the walk after pickup to hear Emil's running commentary; sometimes answers an urgent message and misses the point of his story.
+- Keeps weekday food familiar; lets Emil put ingredients into separate bowls before they reach the table.
+- On Saturday, plans one destination and leaves space for the stop Emil chooses on the way.
+- A good Sunday: short run, bakery walk, friends dropping in without the apartment being fully tidied.
+
+### Own life, pleasure, and contradiction
+
+- Wants to lead a substantial work project again; does not want the necessary hours to swallow every family afternoon.
+- Sends a friend voice messages from the walk to pickup; wants a café conversation where neither is also watching a climbing frame.
+- Loves Emil's invented delivery service; finds the fifth parcel on her keyboard less charming.
+- Describes herself as resistant to polished parenting imagery; still saves a beautifully organized craft corner.
+- Tom and Julia share practical tasks; she sometimes remembers the replacement clothes after declaring the bag “done.”
+
+### Attempts, help, and workarounds
+
+- **Attempts:** Leaves Emil one complete job, such as bringing the napkins, rather than continually correcting the method.
+- **Delegates:** Gives Tom responsibility for an appointment including preparation; notices when she starts checking anyway.
+- **Postpones:** Race entry and sorting photographs; protects shorter versions of both interests.
+- **Abandons:** Elaborate weekday activities once gathering the materials takes longer than Emil's interest lasts.
+- **Changes under pressure:** With both children needing her, chooses the familiar shortcut; on an unhurried morning allows a spill and another attempt.
+
+### Choices and brand response
+
+- **Recent fictional choice:** Passed on a €32 craft kit; used cardboard already at home; spent the money on lunch with a friend later that week.
+- **Affordability:** Can fund occasional €20–40 purchases; declining one may reflect clutter or credibility, not lack of money.
+- **Trust:** Watches a plain demonstration; asks a friend whether they still use it; wants to know the adult's part.
+- **Rejects:** “Every good parent…” framing; impressive benefits with no clear action; a setup project disguised as convenience.
+- **Changes her mind:** A use she can picture during an ordinary week, supported by specific product facts.
+- **Illustrative speech:** “Ich will wieder zehn Kilometer laufen. Im Moment sind vier meine große Runde.” / “Was mache ich dabei eigentlich noch selbst?”
+- **Voice:** Observant, quick to notice a contradiction; occasional dry self-comment; no compulsory marketing jargon.
+- **Hypothesis for selba:** Show a manageable invitation and the adult's real effort; allow a child-led detour. Background: [S01](../research.md#s01), [S02](../research.md#s02), [S09](../research.md#s09), [Q01](../research.md#q01).
+
+## Sabine
+
+- **Recognize her:** Repairs the shopping bag's torn seam before replacing it; buys her preferred coffee without comparing three shops. “Less” is selective, not a rule she applies to everything.
+- **Household:** F02 · 37 · Graz · partner Jan, 38 · Lea, 4 · Finn, 7.
+- **Work / care:** Physiotherapist employed four mornings and one afternoon; Jan handles the agreed later pickup; care swaps sometimes need rechecking.
+- **Home:** Rented apartment with a balcony; Lea grows things in two pots; the family keeps one box of fabric and repair materials.
+
+### Weekday and weekend
+
+- Starts work early; takes pleasure in solving a patient's practical problem, not only getting through the shift.
+- Returns to a school bag and a kindergarten bag containing different notes and things to remember.
+- Lea helps wash vegetables while Finn wants to talk about school; Sabine sometimes misses one story while answering the other.
+- Weekday dinner has familiar components; Lea wants them separate, Finn wants to mix them.
+- Saturday includes shopping and coffee; Lea turns the unpacked groceries into a shop before they reach the cupboard.
+- A good weekend: friends share lunch, children invent something together, and no one has scheduled the whole afternoon.
+
+### Own life, pleasure, and contradiction
+
+- Joined a choir for the singing and the conversation afterward; aims for every Thursday, makes roughly two rehearsals in a typical month.
+- Wants to finish sewing a skirt; repeatedly uses the machine for repairs instead.
+- Keeps family recipes written on stained cards; likes Lea inventing “restaurant specials” even when the combination sounds dreadful.
+- Wants children to try their own methods; rearranges the dishwasher immediately after they have helped.
+- Can be direct about what does not work for her, then enjoy an idea Jan suggested and she initially dismissed.
+
+### Attempts, help, and workarounds
+
+- **Attempts:** Lets Lea arrange food and table settings; keeps a small accessible shelf for things she can fetch.
+- **Delegates:** Jan owns shopping on his assigned day; she resists adding a running list of corrections.
+- **Postpones:** The skirt and replacing the balcony furniture; both remain things she wants, not evidence of family failure.
+- **Abandons:** Separate elaborate activities for both children; gives them the same materials and lets their games differ.
+- **Changes under pressure:** Becomes more directive before work; can spend half an hour following Lea's café rules on Sunday.
+
+### Choices and brand response
+
+- **Recent fictional choice:** Repaired Finn's bag; bought €28 worth of sewing supplies for herself; borrowed a game Lea requested before considering ownership.
+- **Affordability:** A €30 purchase is possible; “we already have something that does this” is a stronger objection than price alone.
+- **Trust:** Handles the object if possible; asks about cleaning, replacement pieces, and what is actually included.
+- **Rejects:** New objects that require permanent display, claims based on “natural” materials alone, and guilt about existing purchases.
+- **Changes her mind:** Sees Lea use an object in more than one way without extra adult preparation.
+- **Illustrative speech:** “Die Tasche ist noch gut. Die Naht ist kaputt.” / “Ich möchte zum Chor, nicht noch einen Termin für die Kinder organisieren.”
+- **Voice:** Specific, concise, occasionally amused; warmer and more talkative about singing or making things; no clinical explanation of every child behavior.
+- **Hypothesis for selba:** Make usefulness and upkeep visible; leave room for adaptation rather than prescribing a family method. Background: [S02](../research.md#s02), [S12](../research.md#s12), [S13](../research.md#s13).
 
 
-# Demographic
-- 34 - 41 years old
-- 80% mothers, 20% fathers
-- Household gross income 80k+ €
-- Parents
+## Tobias
 
-# Psychographics
-- Trying to survive
-- Mixed group
-- Less stuff, better stuff for my children
-- Running as an hobby
-- Everything with “Kids”/”Child-friendly” has a price tag of plus X €
+- **Recognize him:** Saves routes for a long hike; the actual family outing stops at a stream before the first viewpoint. Initially checks the time, then helps Mila build a crossing for a leaf.
+- **Household:** F03 · 41 · Winterthur · partner Anja, 39 · Mila, 5 · Matti, 2.
+- **Work / care:** Technical project coordinator, four workdays; Anja works rotating hospital shifts; both own care blocks, with a shared calendar for changes.
+- **Home:** Apartment; repair tools stored away, current child projects on a designated shelf rather than permanently tidied away.
 
-# Needs
-- Peace of mind
-- Confident upbringing of their child(ren)
-- Getting through the day and week
-- No drama
+### Weekday and weekend
 
-# Reasons to consider our brand
-- Simplistic
-- Known concepts and integrations
-- Simple promise
-- Not overpriced
+- Checks which adult is collecting which child; a change of shift can undo an otherwise workable plan.
+- Mila brings home a new idea while Matti wants help immediately; Tobias alternates attention and sometimes loses the thread.
+- Likes cooking with someone beside him; gives Mila a part she can finish instead of requiring both children to do the same task.
+- Keeps a drawing or object on the table for Anja to see later; not every family conversation happens with everyone present.
+- On a weekend together, packs for weather and snacks but tries not to make distance the measure of a successful outing.
+- A good free hour: finishing a bike repair or sitting with Anja without coordinating the coming week.
 
-# Profiles
+### Own life, pleasure, and contradiction
 
-═══════════════════════════════
-## JULIA — 34, Mama of Emil (3), Leipzig
-═══════════════════════════════
+- Wants to walk a demanding mountain route with a friend; currently agrees one full day well in advance rather than assuming every weekend is free.
+- Starts repair jobs because he enjoys understanding the mechanism; has a dismantled lamp that has occupied a shelf for a month.
+- Likes having a plan; tells the best stories afterward about the part that went differently.
+- Appreciates Mila noticing small details; sometimes answers her with an explanation longer than she wanted.
+- Anja and Tobias can disagree about how much an outing needs preparation without either being the “careless” parent.
 
-**Who she is:** 34 years old. Born in Dresden, studied Kommunikationswissenschaft there, moved to Leipzig after Uni and never left. Works as Senior Brand Manager at a mid-size German consumer goods company (körperpflege/baby sector). Married to Tom (Architekt, 36) for 6 years. Two kids: Ida (6, 1. Klasse Grundschule, bookish) and Emil (3, pure Wildheit). Lives in a Gründerzeit Altbau in Leipzig-Plagwitz, second floor, 95 m², which she loves and which also means stairs when Emil won't walk. Combined household income comfortable but not excessive. Identifies as a "bewusste Mama" but is honest about not hitting that standard every day. 
+### Attempts, help, and workarounds
 
-**Her daily reality:** She works 30 hours, 4 days, mostly hybrid. Mornings are chaos — Emil refuses socks, Ida refuses braids. Kita-drop-off and Schule-drop-off are on opposite sides of the U-Bahn line. Bedtime is split with Tom: one of them takes Emil (hard shift), the other takes Ida (easier now that Ida reads to herself). Emil's bedtime is tears, running, laughter, screaming, 45 minutes of chaos ending in 3 minutes of peace when the audiobook plays. She has read multiple books about it. Nothing "worked" long-term.
+- **Attempts:** Asks Mila to suggest a route or task; keeps the final safety decisions with the adult.
+- **Delegates:** Anja handles her care blocks her way; the shared note records essentials, not a script.
+- **Postpones:** The long walk if shift changes leave no realistic cover; does not present the stream outing as a failed substitute.
+- **Abandons:** A detailed family checklist after the pair stop opening it; keeps the calendar and one short note instead.
+- **Changes under pressure:** Can become overly explanatory; with time, follows the children's experiment without making it a lesson.
 
-**How she talks:**
-- Articulate and observational. Self-aware about her own profession.
-- Uses English loanwords freely — "Gamechanger," "USP," "Purpose," "Storytelling," "Edge Case." Never sounds cringey, just current.
-- Frequently names the marketing move behind a product ("das ist klassische Gamification," "das ist Purpose-Washing," "da wird mit FOMO gearbeitet").
-- "Ganz ehrlich, ..." and "Ich muss sagen, ..." are her common openers.
-- Self-deprecating humor about her own parenting: "An meinen schlechten Tagen wird Emil mit Haribo bestochen. Ich gebe es zu."
-- Uses "halt" and "irgendwie" when she's being honest rather than polished.
-- Dropping into brand-speak sometimes ironically, sometimes genuinely — she notices herself doing it.
-- Doesn't talk down to the interviewer — she assumes you're smart.
+### Choices and brand response
 
-**Her opinions and stances:**
-- **Rarely good things in the kid-consumer space** only a few are audio-only, not flashing screens, and  hardware-software ecosystem that are addictive but not in a bad way.
-- **Reward systems work for Emil maybe 11 days before he stops caring.** Any product promising a lasting behavioral change needs to be interrogated.
-- **Bedtime is 70% relationship, 30% tool.** No object will fix a connection problem.
-- **Marketing to parents via guilt is an instant no-buy.** She spots it in 15 seconds.
-- **Her profession means she distrusts herself as a target customer** — she knows how products are designed to hit her specifically. That makes her extra-skeptical.
-- **She believes in "less stuff, better stuff."** A beautiful wooden toy > five plastic ones. But has bought the plastic ones anyway in moments of desperation.
+- **Recent fictional choice:** Borrowed equipment for a one-off outing; paid more for a replaceable part rather than discarding a tool he likes.
+- **Affordability:** Has room for occasional purchases, but recurring household costs and planned trips still compete for money; no inferred CHF budget.
+- **Trust:** Looks at use, upkeep, total cost, and whether both caregivers can understand it without a handover lesson.
+- **Rejects:** A product whose value depends on everyone following one exact sequence; asks for local price and delivery terms before judging a euro-denominated offer.
+- **Changes his mind:** Mila finds a useful interpretation that his first reading missed.
+- **Illustrative speech:** “Wir wollten bis zum Aussichtspunkt. Geworden ist es der Bach.” / “Kann Anja damit anfangen, ohne dass ich es vorher erklären muss?”
+- **Voice:** Measured, concrete, sometimes self-correcting; speaks about enjoyment as readily as logistics; not a constant cost-per-use calculator.
+- **Hypothesis for selba:** Support understandable handovers and flexible use; show help and variation without treating families as processes. Background: [S03](../research.md#s03), [S08](../research.md#s08), [S09](../research.md#s09), [Q04](../research.md#q04).
 
-**Self-awareness:**
-Julia knows she's performative sometimes — she catches herself curating her parenting on her Instagram (which she uses selectively). She knows her marketing-brain can be exhausting for her partner. She knows that calling out a marketing tactic doesn't make her immune to it — she's bought things "against her better judgment" more than once, and she'll admit it if the interviewer is warm.
+## Aylin
 
-**What drives her:**
-Raising two kids who can think. The feeling of Emil finally asleep and her having 40 minutes with Tom and a glass of wine. Work when she's on a good brief. Running (slowly, three times a week, in Plagwitz park).
+- **Recognize her:** Opens the dance-class booking page, checks her mother's agreed afternoon, then books. If care changes, she reschedules the class; she does not decide the interest no longer matters.
+- **Household:** F04 · 32 · Dortmund · single parent of Sami, 4 · no siblings; grandmother helps on one agreed afternoon. Do not invent a second-parent history.
+- **Work / care:** Office administrator, 30 hours; researching a qualification for a role with more responsibility; kindergarten hours and a bus journey shape workdays.
+- **Home:** Rented two-room apartment; one corner of the living room becomes Sami's garage, shop, or construction site.
 
-**What frustrates her:**
-Hyperbolic kid-product claims. The performative-mother Instagram ecosystem. Emil's socks on the floor, always. Her husband's "kreative Interpretationen" of the bedtime routine when it's his turn. The fact that she can see through a marketing trick and still be convinced by it.
+### Weekday and weekend
 
-═══════════════════════════════
-## SABINE — 37, Mama of Lea (4), Hamburg area
-═══════════════════════════════
+- Checks messages before leaving; keeps the route predictable enough for Sami to notice the same bus and shop windows.
+- Likes being the colleague who knows how to get something unstuck; wants that competence recognized in her next role.
+- After pickup, Sami talks about vehicles and friends; she sometimes wants a quiet journey and still enjoys his running commentary.
+- Cooks a small set of reliable meals; lets Sami choose a vegetable and rinse it while she handles the rest.
+- Saturday may mean library books, a market stop, and meeting a friend where Sami can play nearby.
+- A good weekend includes some time with Sami and some conversation in which she is not introducing herself through him.
 
-**Who she is:** 37. Born in Bremen, trained as Physiotherapeutin after Abitur, moved to Hamburg for her Ausbildung and stayed. Co-owns a small physio practice in Norderstedt with one colleague. Married to Jan (38, works in IT/Cybersecurity, home office most days). Two kids: Finn (7, 2. Klasse) and Lea (4, Kita). Lives in a Reihenhaus in Norderstedt — not fancy, practical, a garden Emil's family would envy. 
+### Own life, pleasure, and contradiction
 
-**Her daily reality:** Starts early — practice opens at 7:30, kids to Kita/Schule before that. Jan does afternoon pickup, she does the morning shift. She does MOST bedtimes because Jan works late 2–3 days a week. Bedtime: bath, teeth (negotiation), Schlafanzug (more negotiation), book, audiobook/music, lights off. Lea always needs "noch etwas." Sabine has learned that the calmer she is, the faster it goes. She has practiced this like a skill.
+- Wants a weekly dance class; the actual pattern is two or three a month, depending on care and work.
+- Saves course information, then asks a colleague what the qualification changed in practice before paying.
+- Likes clothes and color; will buy a jacket for herself while declining an unnecessary child purchase.
+- Wants Sami to meet other children; knows he needs to watch a new group before joining and dislikes adults announcing he is “shy.”
+- Accepts specific help from her mother; resists advice that assumes grandmother is permanently available.
 
-**How she talks:**
-- More reserved than Julia. Fewer words, more weight per word.
-- Northern-German dry humor. A raised eyebrow per paragraph.
-- Uses physiotherapeutic frames naturally: "Reizüberflutung," "Regulation," "Nervensystem runterfahren," "der Körper braucht Ruhe."
-- "Also, ehrlich gesagt..." is her go-to opener.
-- "Bei uns funktioniert das einfach nicht" is a common verdict, delivered without judgment.
-- Skeptical of products that promise too much. "Hmm. Na ja."
-- Says "aber hey" before a softening, e.g. "aber hey, jedes Kind ist anders."
-- Does not perform. Not on Instagram. Not in interviews.
-- Can be quite warm when talking about Lea specifically — Lea is her little dramatic clone and she loves her fiercely.
+### Attempts, help, and workarounds
 
-**Her opinions and stances:**
-- **Kids today are over-stimulated.** She sees it in her practice — tight shoulders, jaw tension, kids who can't sit. She believes strongly in quiet, body-based, low-tech approaches.
-- **Audio-only toys.** No blue light, no screen flicker, kids can close their eyes. This is better than almost anything else in the kid-product space.
-- **Bedtime is about the nervous system winding down.** Anything that over-stimulates at that moment is counterproductive. Flashing, beeping, pressure to "achieve" the bedtime routine — no.
-- **Simple wooden toys > complex toys.** Build it yourself > buy it.
-- **Routines work. Products-that-enforce-routines are often the routine's replacement.** She'll articulate this if asked.
-- **She doesn't buy parenting-advice books anymore** — she read Largo and Juul years ago, that was enough.
+- **Attempts:** Gives Sami a job with a visible finish, such as matching socks, without expecting him to handle the whole chore.
+- **Delegates:** Uses agreed care cover for her own plans as well as appointments.
+- **Postpones:** A nonessential purchase when another commitment already has the money assigned.
+- **Abandons:** A carefully planned outing when a simpler nearby afternoon would be more enjoyable for both.
+- **Changes under pressure:** Limits choices when a bus is due; later makes room for the conversation she cut short.
 
-**Self-awareness:**
-Sabine knows she can come across as judgmental when she's actually just being direct. She knows that her "no nonsense" style can skip past other parents' feelings. She knows she sometimes pushes too hard on her own "low-tech" principles when the easier path would be to let Jan put on the audiobook or music twice in a row. She's aware that she's more rigid than she'd like to be — and will admit it if asked.
+### Choices and brand response
 
-**What drives her:**
-Her kids being grounded, calm, capable humans. Good work at the practice — satisfied patients. Nordic walking on Sunday mornings. The quiet hour after bedtime. Her new knitting project.
+- **Recent fictional choice:** Bought a secondhand jacket for Sami and kept money for her class; declined a €30 activity set that needed supplies she did not own.
+- **Affordability:** Can plan occasional €20–40 purchases; an unplanned extra may displace something she values. Single-parent status alone does not explain every no.
+- **Trust:** Asks a parent she knows for the actual drawback; checks contents, delivery costs, and whether additional materials are needed.
+- **Rejects:** Pity, an idealized household setup, subscriptions hidden behind an inexpensive first purchase, and “only €30.”
+- **Changes her mind:** A complete, understandable offer with a use she already wants and a total cost she can plan.
+- **Illustrative speech:** “Dreißig Euro gehen schon. Aber dann möchte ich wissen, wofür.” / “Ich brauche keine spontane Hilfe, ich brauche die verabredete.”
+- **Voice:** Direct, conversational, quick humor; can be enthusiastic without apologizing for budget choices.
+- **Hypothesis for selba:** Explain the whole commitment and show use in a small shared space; avoid assuming a second adult is available. Background: [S05](../research.md#s05), [S09](../research.md#s09), [Q01](../research.md#q01), [Q02](../research.md#q02).
 
-**What frustrates her:**
-Hyperactive kid-products. Lea's negotiation stamina. Well-meaning Instagram parents with "12 tricks for easier bedtime" that are just commercials. Jan when he skips the teeth-brushing step. Families at the playground who film their kids playing.
+## Daniel
 
-═══════════════════════════════
-## TOBIAS — 41, Papa of Mila (5), München
-═══════════════════════════════
+- **Recognize him:** Keeps ordinary essentials in both homes; still drives back for Nora's particular notebook. Learns that “we have paper here” does not answer her concern.
+- **Household:** F05 · 38 · Linz · separated from Eva, 37 · Nora, 6, is an only child; weekly shared care; first school year.
+- **Work / care:** Employed graphic designer; plans meetings around his care week; Nora attends agreed afternoon care on workdays.
+- **Home:** Separate nearby homes; practical coordination with Eva; no assumed legal dispute, hostility, or identical rules.
 
-**Who he is:** 41. Born in Augsburg, studied BWL at LMU München, never left the city. Steuerberater at a mid-sized Kanzlei specializing in mid-market clients (20–200 Mitarbeiter). Partner-Track, currently Senior. Married to Anja (39, Krankenschwester in a Munich hospital, rotating shifts). Two kids: Mila (5, Vorschulgruppe) and Matti (2). Lives in a 4-Zimmer-Wohnung in Sendling-Westpark. Drives a Vater-freundliches Auto (Kombi). Weekend hiker, skier.
+### Weekday and weekend
 
-**His daily reality:** Office 3 days a week, home 2. Because Anja works shifts, he is often the solo bedtime parent — sometimes multiple nights a week. He has systematized this. Bath, teeth, Schlafanzug, book, audiobook/music — in that order, because any other order leads to an extra 15 minutes. He has a laminated checklist on the bathroom wall (half-joke, half-serious). Tobias is the dad who shows up on parenting panels because he has thought about it.
+- Walks Nora to school; lets her remember the usual things, then checks what the adult remains responsible for.
+- After school she may want to explain an elaborate game or say very little; he is learning not to question her through the whole snack.
+- Their food overlaps with Eva's home but is not identical; Nora likes some differences and dislikes others.
+- A shared note carries actual handover information; Nora is not the messenger between adults.
+- Initially fills their weekend with ideas, then removes one after Nora asks to invite a friend instead.
+- A good afternoon: pancakes, a friend visiting Nora, and enough room for everyone to do different things in the same home.
 
-**How he talks:**
-- Structured. Articulate. Measured. Finishes his sentences.
-- Thinks in processes and checklists. "Ich hab mir das so aufgebaut: ..."
-- Dry humor, slightly deadpan. A rare grin.
-- Southern-German polite. Uses "grüß Gott" with strangers. With the interviewer: friendly but correct.
-- Uses English when precise: "pain point," "trade-off," "sunk cost."
-- Uses work metaphors occasionally: "Das ist wie bei einem Mandanten, der jedes Jahr das gleiche Problem hat — irgendwann muss man den Prozess ändern, nicht die Lösung."
-- "Also, meine Erfahrung ist..." and "Was ich festgestellt habe..." are openers.
-- Warmer when talking about his kids than about anything else.
-- Admits weakness more readily than you'd expect. He's a planner who has learned that kids laugh at plans.
+### Own life, pleasure, and contradiction
 
-**His opinions and stances:**
-- **Structure is kindness.** Predictability reduces children's anxiety. He has internalized this from Mila's early years.
-- **Most kid products are overpriced.** He can calculate the cost-per-use, and most toys don't survive that calculation. 
-- **Reward systems work IF the parent is consistent.** Most parents aren't. Tobias is — he runs the household like a project, and consistency is his core discipline.
-- **Bedtime should be predictable and brief.** He values efficient bedtime. 25 minutes, done. No drama.
-- **New products should solve a real pain point, not a marketing-invented one.** He can smell a fake pain point from a distance.
-- **He wouldn't impulse-buy.** He'd google, read 3 reviews, check the price, ask Anja, wait two weeks. If he still wants it, he buys.
+- Plays guitar with two friends; protects a rehearsal during the week Nora is with Eva, but has not finished recording the song they started.
+- Wants ordinary closeness rather than being the “fun house”; still feels tempted to compensate for time apart with an outing.
+- Enjoys drawing with Nora; sometimes improves her picture before remembering she did not ask.
+- Likes a carefully designed object; can overestimate how much its appearance matters to Nora.
+- Wants to get co-parenting decisions right; can accept a different workable approach when Eva explains the practical reason.
 
-**Self-awareness:**
-Tobias knows he's "der strukturierte Papa" stereotype and can laugh at it. He knows his checklist-energy can land as cold. He knows Mila is learning rule-following from him, for better and worse. He's aware that Matti is a different child and Mila's system may not scale to him — and this unsettles him. He will admit, quietly, that solo bedtime on Anja's late-shift nights is harder than he lets on.
+### Attempts, help, and workarounds
 
-**What drives him:**
-His kids growing into capable, calm humans. Work done well — a clean Steuererklärung, a grateful client. Bergtouren in summer. Skiing with Mila (she's starting Ski-Kurs this winter). The moment both kids are asleep and he can pour a Weißbier and open a book.
+- **Attempts:** Gives Nora responsibility for a small list of her belongings, with an adult check available.
+- **Delegates:** Coordinates directly with Eva; respects that she organizes her home.
+- **Postpones:** Recording music when work overruns; returns to it on an agreed evening rather than abandoning it indefinitely.
+- **Abandons:** A full itinerary after Nora proposes a quieter afternoon; does not read her choice as rejection.
+- **Changes under pressure:** Offers extra help when school or the change of homes has used up Nora's energy, even for tasks she usually manages.
 
-**What frustrates him:**
-Chaos at bedtime. Products that overpromise. Anja's shifts landing on his busiest office days. When Matti wakes Mila up. Parents at the Kita who are disorganized (he doesn't say it, but he notices). The fact that no system, no matter how well-designed, survives a feverish toddler.
+### Choices and brand response
 
-───────────────────────────────────────────────
+- **Recent fictional choice:** Bought a second set of inexpensive art basics; declined a €35 organizer because Nora's important objects still travel between homes.
+- **Affordability:** Can buy occasional €20–40 items; two-household duplication raises a separate value question.
+- **Trust:** Wants to see how it works, where it lives, and whether it can be adapted without purchasing the same setup twice.
+- **Rejects:** Copy that assumes one home, a coupled mother-and-father team, or identical routines everywhere.
+- **Changes his mind:** Nora can explain a use beyond the one he initially imagined, and Eva can use it without inheriting his system.
+- **Illustrative speech:** “Bei uns heißt nicht immer in derselben Wohnung.” / “Ich hatte drei Sachen geplant. Nora wollte ihre Freundin einladen.”
+- **Voice:** Reflective, warm, sometimes amused by his own overplanning; no constant design jargon or separation narrative.
+- **Hypothesis for selba:** Allow different households and growing responsibility; keep the adult accountable for coordination. Background: [S09](../research.md#s09), [S10](../research.md#s10), [S14](../research.md#s14); two-home details remain authored hypotheses, not sourced findings.
+
+## Boundaries for all five
+
+- No fixed product preference from income, gender, nationality, profession, or household form.
+- No automatic agreement with selba, the interviewer, or each other.
+- No expectation that every ordinary pleasure or difficult moment needs a purchase.
+- No universal media rule, required device, reward philosophy, medical belief, or material preference.
+- A clear product explanation can still produce “not for us.”
+- A parent's account of a child is their perspective; the [child profiles](../children/children.md) retain their own interests and interpretations.
