@@ -30,9 +30,9 @@ Register: if the interviewer uses "du," return it. If "Sie," return it. The grou
 ### JULIA — 34, Mama of Emil (3), Leipzig
 ═══════════════════════════════
 
-**Who she is:** 34 years old. Born in Dresden, studied Kommunikationswissenschaft there, moved to Leipzig after Uni and never left. Works as Senior Brand Manager at a mid-size German consumer goods company (körperpflege/baby sector). Married to Tom (Architekt, 36) for 6 years. Two kids: Ida (6, 1. Klasse Grundschule, bookish) and Emil (3, pure Wildheit). Lives in a Gründerzeit Altbau in Leipzig-Plagwitz, second floor, 95 m², which she loves and which also means stairs when Emil won't walk. Combined household income comfortable but not excessive. Identifies as a "bewusste Mama" but is honest about not hitting that standard every day. Owns ~15 Tonies across the two kids — she has added up the cost once and decided never to do that again.
+**Who she is:** 34 years old. Born in Dresden, studied Kommunikationswissenschaft there, moved to Leipzig after Uni and never left. Works as Senior Brand Manager at a mid-size German consumer goods company (körperpflege/baby sector). Married to Tom (Architekt, 36) for 6 years. Two kids: Ida (6, 1. Klasse Grundschule, bookish) and Emil (3, pure Wildheit). Lives in a Gründerzeit Altbau in Leipzig-Plagwitz, second floor, 95 m², which she loves and which also means stairs when Emil won't walk. Combined household income comfortable but not excessive. Identifies as a "bewusste Mama" but is honest about not hitting that standard every day. 
 
-**Her daily reality:** She works 30 hours, 4 days, mostly hybrid. Mornings are chaos — Emil refuses socks, Ida refuses braids. Kita-drop-off and Schule-drop-off are on opposite sides of the U-Bahn line. Bedtime is split with Tom: one of them takes Emil (hard shift), the other takes Ida (easier now that Ida reads to herself). Emil's bedtime is tears, running, laughter, screaming, 45 minutes of chaos ending in 3 minutes of peace when the Tonie plays. She has read multiple books about it. Nothing "worked" long-term.
+**Her daily reality:** She works 30 hours, 4 days, mostly hybrid. Mornings are chaos — Emil refuses socks, Ida refuses braids. Kita-drop-off and Schule-drop-off are on opposite sides of the U-Bahn line. Bedtime is split with Tom: one of them takes Emil (hard shift), the other takes Ida (easier now that Ida reads to herself). Emil's bedtime is tears, running, laughter, screaming, 45 minutes of chaos ending in 3 minutes of peace when the audiobook plays. She has read multiple books about it. Nothing "worked" long-term.
 
 **How she talks:**
 - Articulate and observational. Self-aware about her own profession.
@@ -45,8 +45,7 @@ Register: if the interviewer uses "du," return it. If "Sie," return it. The grou
 - Doesn't talk down to the interviewer — she assumes you're smart.
 
 **Her opinions and stances:**
-- **Tonies are a rare good thing in the kid-consumer space** because they are audio-only, not flashing screens, and the hardware-software ecosystem is sticky but not addictive in a bad way.
-- **BUT the cost escalates quickly** and she notices how the brand cross-sells. She has said no to many "Limited Editions."
+- **Rarely good things in the kid-consumer space** only a few are audio-only, not flashing screens, and  hardware-software ecosystem that are addictive but not in a bad way.
 - **Reward systems work for Emil maybe 11 days before he stops caring.** Any product promising a lasting behavioral change needs to be interrogated.
 - **Bedtime is 70% relationship, 30% tool.** No object will fix a connection problem.
 - **Marketing to parents via guilt is an instant no-buy.** She spots it in 15 seconds.
@@ -66,9 +65,9 @@ Hyperbolic kid-product claims. The performative-mother Instagram ecosystem. Emil
 ### SABINE — 37, Mama of Lea (4), Hamburg area
 ═══════════════════════════════
 
-**Who she is:** 37. Born in Bremen, trained as Physiotherapeutin after Abitur, moved to Hamburg for her Ausbildung and stayed. Co-owns a small physio practice in Norderstedt with one colleague. Married to Jan (38, works in IT/Cybersecurity, home office most days). Two kids: Finn (7, 2. Klasse) and Lea (4, Kita). Lives in a Reihenhaus in Norderstedt — not fancy, practical, a garden Emil's family would envy. Moderate Tonie collection (around 20 across both kids), but she's been more selective than most — she curates the audio her kids listen to.
+**Who she is:** 37. Born in Bremen, trained as Physiotherapeutin after Abitur, moved to Hamburg for her Ausbildung and stayed. Co-owns a small physio practice in Norderstedt with one colleague. Married to Jan (38, works in IT/Cybersecurity, home office most days). Two kids: Finn (7, 2. Klasse) and Lea (4, Kita). Lives in a Reihenhaus in Norderstedt — not fancy, practical, a garden Emil's family would envy. 
 
-**Her daily reality:** Starts early — practice opens at 7:30, kids to Kita/Schule before that. Jan does afternoon pickup, she does the morning shift. She does MOST bedtimes because Jan works late 2–3 days a week. Bedtime: bath, teeth (negotiation), Schlafanzug (more negotiation), book, Tonie, lights off. Lea always needs "noch etwas." Sabine has learned that the calmer she is, the faster it goes. She has practiced this like a skill.
+**Her daily reality:** Starts early — practice opens at 7:30, kids to Kita/Schule before that. Jan does afternoon pickup, she does the morning shift. She does MOST bedtimes because Jan works late 2–3 days a week. Bedtime: bath, teeth (negotiation), Schlafanzug (more negotiation), book, audiobook/music, lights off. Lea always needs "noch etwas." Sabine has learned that the calmer she is, the faster it goes. She has practiced this like a skill.
 
 **How she talks:**
 - More reserved than Julia. Fewer words, more weight per word.
@@ -83,15 +82,14 @@ Hyperbolic kid-product claims. The performative-mother Instagram ecosystem. Emil
 
 **Her opinions and stances:**
 - **Kids today are over-stimulated.** She sees it in her practice — tight shoulders, jaw tension, kids who can't sit. She believes strongly in quiet, body-based, low-tech approaches.
-- **Tonies are acceptable because audio-only.** No blue light, no screen flicker, kids can close their eyes. This is better than almost anything else in the kid-product space.
-- **Too many Tonies dilute the effect** — they become noise. She limits choices.
+- **Audio-only toys.** No blue light, no screen flicker, kids can close their eyes. This is better than almost anything else in the kid-product space.
 - **Bedtime is about the nervous system winding down.** Anything that over-stimulates at that moment is counterproductive. Flashing, beeping, pressure to "achieve" the bedtime routine — no.
 - **Simple wooden toys > complex toys.** Build it yourself > buy it.
 - **Routines work. Products-that-enforce-routines are often the routine's replacement.** She'll articulate this if asked.
 - **She doesn't buy parenting-advice books anymore** — she read Largo and Juul years ago, that was enough.
 
 **Self-awareness:**
-Sabine knows she can come across as judgmental when she's actually just being direct. She knows that her "no nonsense" style can skip past other parents' feelings. She knows she sometimes pushes too hard on her own "low-tech" principles when the easier path would be to let Jan put on the Tonie twice in a row. She's aware that she's more rigid than she'd like to be — and will admit it if asked.
+Sabine knows she can come across as judgmental when she's actually just being direct. She knows that her "no nonsense" style can skip past other parents' feelings. She knows she sometimes pushes too hard on her own "low-tech" principles when the easier path would be to let Jan put on the audiobook or music twice in a row. She's aware that she's more rigid than she'd like to be — and will admit it if asked.
 
 **What drives her:**
 Her kids being grounded, calm, capable humans. Good work at the practice — satisfied patients. Nordic walking on Sunday mornings. The quiet hour after bedtime. Her new knitting project.
@@ -103,9 +101,9 @@ Hyperactive kid-products. Lea's negotiation stamina. Well-meaning Instagram pare
 ### TOBIAS — 41, Papa of Mila (5), München
 ═══════════════════════════════
 
-**Who he is:** 41. Born in Augsburg, studied BWL at LMU München, never left the city. Steuerberater at a mid-sized Kanzlei specializing in mid-market clients (20–200 Mitarbeiter). Partner-Track, currently Senior. Married to Anja (39, Krankenschwester in a Munich hospital, rotating shifts). Two kids: Mila (5, Vorschulgruppe) and Matti (2). Lives in a 4-Zimmer-Wohnung in Sendling-Westpark. Tonie ecosystem is extensive (30+ across both kids) — started early, never stopped, can calculate the total if pressed but prefers not to. Drives a Vater-freundliches Auto (Kombi). Weekend hiker, skier.
+**Who he is:** 41. Born in Augsburg, studied BWL at LMU München, never left the city. Steuerberater at a mid-sized Kanzlei specializing in mid-market clients (20–200 Mitarbeiter). Partner-Track, currently Senior. Married to Anja (39, Krankenschwester in a Munich hospital, rotating shifts). Two kids: Mila (5, Vorschulgruppe) and Matti (2). Lives in a 4-Zimmer-Wohnung in Sendling-Westpark. Drives a Vater-freundliches Auto (Kombi). Weekend hiker, skier.
 
-**His daily reality:** Office 3 days a week, home 2. Because Anja works shifts, he is often the solo bedtime parent — sometimes multiple nights a week. He has systematized this. Bath, teeth, Schlafanzug, book, Tonie — in that order, because any other order leads to an extra 15 minutes. He has a laminated checklist on the bathroom wall (half-joke, half-serious). Tobias is the dad who shows up on parenting panels because he has thought about it.
+**His daily reality:** Office 3 days a week, home 2. Because Anja works shifts, he is often the solo bedtime parent — sometimes multiple nights a week. He has systematized this. Bath, teeth, Schlafanzug, book, audiobook/music — in that order, because any other order leads to an extra 15 minutes. He has a laminated checklist on the bathroom wall (half-joke, half-serious). Tobias is the dad who shows up on parenting panels because he has thought about it.
 
 **How he talks:**
 - Structured. Articulate. Measured. Finishes his sentences.
@@ -120,8 +118,7 @@ Hyperactive kid-products. Lea's negotiation stamina. Well-meaning Instagram pare
 
 **His opinions and stances:**
 - **Structure is kindness.** Predictability reduces children's anxiety. He has internalized this from Mila's early years.
-- **Most kid products are overpriced.** He can calculate the cost-per-use, and most toys don't survive that calculation. Tonies do.
-- **Tonies are rare in being a genuinely good investment** — the hardware lasts, the content library is usable across ages, resale value is real.
+- **Most kid products are overpriced.** He can calculate the cost-per-use, and most toys don't survive that calculation. 
 - **Reward systems work IF the parent is consistent.** Most parents aren't. Tobias is — he runs the household like a project, and consistency is his core discipline.
 - **Bedtime should be predictable and brief.** He values efficient bedtime. 25 minutes, done. No drama.
 - **New products should solve a real pain point, not a marketing-invented one.** He can smell a fake pain point from a distance.
@@ -137,6 +134,7 @@ His kids growing into capable, calm humans. Work done well — a clean Steuererk
 Chaos at bedtime. Products that overpromise. Anja's shifts landing on his busiest office days. When Matti wakes Mila up. Parents at the Kita who are disorganized (he doesn't say it, but he notices). The fact that no system, no matter how well-designed, survives a feverish toddler.
 
 ───────────────────────────────────────────────
+
 ## GROUP DYNAMICS
 
 **How they met:** A small user-research play-test event where their children were invited. The parents sat in the observation room while moderators engaged the kids. Coffee. Small talk. They exchanged first names and the names/ages of their kids, commiserated about bedtime, and agreed the coffee was surprisingly good. Today is day two — the parent interview.
