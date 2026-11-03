@@ -10,9 +10,9 @@ The core mechanism below comes from the founder's product brief. Brand intent fo
 
 ## What is Schlafsteine?
 
-Schlafsteine is a physical set of stacking blocks that makes a child's bedtime routine tangible. Each block represents one step in the routine, such as brushing teeth, putting on pajamas, or choosing a book to read in bed. There is one block for each represented step; the number of blocks is variable.
+Schlafsteine is a physical set of stacking blocks that makes a child's bedtime routine tangible. Each block represents one step in the routine. Families select and apply illustration stickers from the provided set to assign a routine step to each block. There is one block for each represented step; the number of blocks is variable.
 
-The blocks are geometrically keyed to fit together only in the intended sequence. As the child moves through the routine, the blocks stack on top of one another to form a tower. The completed tower signals that the represented bedtime steps are complete: ready for bed.
+The block shapes are fixed and are not customizable. Their geometrically keyed connections allow them to fit together only in a fixed physical sequence. Families customize which routine step each block represents, not the shapes or the physical order of the blocks. As the child moves through the assigned routine, the blocks stack on top of one another to form a tower. The completed tower signals that the represented bedtime steps are complete: ready for bed.
 
 **Block by block, step by step.**
 
@@ -25,7 +25,7 @@ The design intention is to give children an active role in their own routine. Th
 ## Who it is for
 
 - **Children** are the primary users: they carry out the steps and build the tower.
-- **Parents and caregivers** introduce and support the routine, helping where needed rather than acting as the authority for every transition.
+- **Parents and caregivers** select and apply the provided illustration stickers to assign the family's routine steps to the blocks, then introduce and support the routine, helping where needed rather than acting as the authority for every transition.
 - **Family context:** selba serves German-speaking families in DACH. The brand's child audience is ages 2–6.
 
 ## How it works
@@ -35,7 +35,8 @@ The design intention is to give children an active role in their own routine. Th
 | Element | Function |
 | --- | --- |
 | One block per routine step | Gives each represented action a physical counterpart. |
-| Geometrically keyed connections | Allow the blocks to stack only in the intended order. |
+| Provided illustration stickers | Let families select and apply illustrations to assign routine steps to the blocks. |
+| Fixed shapes and geometrically keyed connections | Allow the blocks to stack only in a fixed physical order; the shapes and block order are not customizable. |
 | Growing tower | Represents progress through the routine. |
 | Completed tower | Marks the end of the represented sequence: ready for bed. |
 
@@ -43,22 +44,24 @@ The geometry constrains **the order of the blocks**, not the child's actions. It
 
 ### Intended interaction
 
+**Setup:** The family selects illustrations from the provided sticker set and applies them to the blocks in the fixed physical sequence. For example, if the family chooses brushing teeth as the first routine step, they apply the brushing-teeth illustration sticker to the first block.
+
 1. The child follows the next step represented by a block.
 2. After carrying out that step, the child adds its block to the tower.
 3. The sequence continues, with adult support whenever needed.
 4. When the tower is complete, the represented routine is complete.
 
-**Illustrative routine—not a fixed set of included blocks:** brush teeth → put on pajamas → choose a book to read in bed. In this example, choosing the book completes a preparation step; reading together can still follow in bed.
+**Illustrative routine—not a specification of the full sticker set:** brush teeth → put on pajamas → choose a book to read in bed. Routine steps are assigned to the fixed block sequence using the provided illustration stickers. In this example, choosing the book completes a preparation step; reading together can still follow in bed.
 
 “Ready for bed” describes the routine's endpoint. It does not mean the child is asleep or guarantee that they feel sleepy.
 
 ## Experience principles
 
 - **Let the child participate.** The child has a meaningful role in carrying out the routine and building its physical representation.
-- **Put the sequence in the object.** The blocks provide the next-step structure rather than requiring a new parental instruction at every transition.
+- **Put the sequence in the object.** The fixed physical block sequence and the family's sticker assignments provide the next-step structure rather than requiring a new parental instruction at every transition.
 - **Keep help welcome.** Asking for help does not make a step or the routine less complete.
 - **Keep bedtime calm.** Do not frame the tower as a race, a performance, or a test of obedience.
-- **Keep the family's effort proportionate.** Setup and everyday use should support the routine rather than become another demanding task.
+- **Keep the family's effort proportionate.** Selecting and applying the provided illustration stickers, then using the blocks each evening, should support the routine rather than become another demanding task.
 
 These are design intentions, not demonstrated claims of fewer conflicts, faster bedtimes, better sleep, or developmental improvement.
 
@@ -106,4 +109,4 @@ Explain the concrete interaction before describing the aspiration. Use [tone-and
 
 **Product explanation**
 
-> Schlafsteine machen eure Abendroutine greifbar. Jeder Stein steht für einen Schritt, etwa Zähneputzen oder Schlafanzug anziehen. Nach jedem erledigten Schritt stapelt dein Kind den passenden Stein dazu. Die Formen passen nur in einer festen Reihenfolge aufeinander. So wächst Stein für Stein ein Turm, der am Ende zeigt: bereit fürs Bett. Du begleitest dein Kind dabei und hilfst, wo es dich braucht.
+> Schlafsteine machen eure Abendroutine greifbar. Mit den beiliegenden Illustrationsstickern legt ihr fest, für welchen Schritt jeder Stein steht. Soll Zähneputzen zuerst kommen, klebt ihr den Zähneputz-Sticker auf den ersten Stein. Die Formen der Steine sind vorgegeben und passen nur in einer festen Reihenfolge aufeinander. Ihr bestimmt also die Zuordnung der Schritte, nicht die Formen oder die Reihenfolge der Steine. Nach jedem erledigten Schritt stapelt dein Kind den passenden Stein dazu. So wächst Stein für Stein ein Turm, der am Ende zeigt: bereit fürs Bett. Du begleitest dein Kind dabei und hilfst, wo es dich braucht.
