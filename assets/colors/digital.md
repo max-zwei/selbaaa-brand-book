@@ -9,13 +9,13 @@ The selba palette contains a shared Primary color, three groups for Morning, Day
 | Token | Palette role | sRGB HEX |
 | --- | --- | --- |
 | `primary` | Primary | `#EB341B` |
-| `morning` | Morning — main | `#F5D91B` |
+| `morning` | Morning — main | `#499ACD` |
 | `morning-pink` | Morning — secondary pink | `#F77EAD` |
-| `morning-blue` | Morning — secondary blue | `#499ACD` |
+| `morning-yellow` | Morning — secondary yellow | `#F5D91B` |
 | `morning-lime` | Morning — secondary lime | `#BBE132` |
-| `day` | Day — main | `#00CC99` |
+| `day` | Day — main | `#FF7852` |
 | `day-blue` | Day — secondary blue | `#18498F` |
-| `day-coral` | Day — secondary coral | `#FF7852` |
+| `day-torquoise` | Day — secondary torquoise | `#00CC99` |
 | `day-purple` | Day — secondary purple | `#AC5BAC` |
 | `night` | Night — main | `#0B1946` |
 | `night-lavender` | Night — secondary lavender | `#B0AEC9` |
@@ -29,13 +29,13 @@ The selba palette contains a shared Primary color, three groups for Morning, Day
 ```yaml
 colors:
   primary: "#EB341B"
-  morning: "#F5D91B"
+  morning: "#499ACD"
   morning-pink: "#F77EAD"
-  morning-blue: "#499ACD"
+  morning-yellow: "#F5D91B"
   morning-lime: "#BBE132"
-  day: "#00CC99"
+  day: "#FF7852"
   day-blue: "#18498F"
-  day-coral: "#FF7852"
+  day-torqouise: "#00CC99"
   day-purple: "#AC5BAC"
   night: "#0B1946"
   night-lavender: "#B0AEC9"

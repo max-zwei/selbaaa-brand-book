@@ -4,9 +4,9 @@ selba creates simple, playful tools that give children room to explore, try, and
 
 This is the starting point for anyone making products, designs, copy, or decisions for selba, including agents. It defines the brand's enduring intent and application principles. Detailed execution belongs in the linked guidelines and assets.
 
-**Last update**: 30 October 2026
+**Last update**: 2 November 2026
 **Owner:** Max Pinkert, max@selbaaaa.com
-**v1.1:** DACH audience, holistic family profiles, and research provenance
+**v1.2:** Selba display and Figtree text roles aligned with the website design system
 
 **Navigate:** [Core](#brand-core) · [Audiences](#audiences) · [Positioning](#positioning-and-promises) · [Values](#values-in-practice) · [Expression](#brand-expression) · [Evidence](#claims-and-evidence) · [References](#brand-book-reference-map) · [Review](#application-check)
 
@@ -21,21 +21,16 @@ This is the starting point for anyone making products, designs, copy, or decisio
 
 ### Essence
 
-**We care. We make room for “I can do it myself.”**
+**We care.**
+The child's own discovery is the moment we want to make possible while respecting the need of parents for realistic and simple solutions suiting their day-to-day family life.
 
-Care means taking children's attempts seriously and respecting the realities of family life. The child's own discovery is the moment we want to make possible.
-
-### Purpose — why we exist
+### Mission — why we exist
 
 To give children more opportunities to experience their own capability, with support from the adults around them.
 
 ### Vision — the future we want
 
-A generation of confident people who feel able to explore, try, and learn.
-
-### Mission — what we do
-
-Understand everyday challenges for children and parents, then develop simple, creative tools that help children take an active part. Use relevant research on child development, including cognitive development, to inform the work, and test ideas with families.
+A generation of confident people who are empowered and curious to explore, try, and learn.
 
 ### What empowerment means for us
 
@@ -86,11 +81,11 @@ Address the tension between parents needing something manageable and children ne
 
 | Value | Apply it | Avoid |
 | --- | --- | --- |
-| **Simple Creativity** | Find an inventive solution with a clear purpose. Remove unnecessary steps, features, and explanation. | Novelty that adds effort; complexity disguised as sophistication; careless execution |
+| **Simple Creativity** | Find an inventive solution with a clear purpose, while removing unnecessary steps, features, and explanation. | Novelty that adds effort; complexity disguised as sophistication; careless execution |
 | **Patience** | Give children time to try again. Give product development time for learning and refinement. | Pressure to progress faster; rushing an untested idea into a confident claim |
-| **Problems First** | Identify the situation and the need before proposing a feature. Check assumptions with families. | Inventing a parental worry to justify a product; starting with a feature and searching for a need |
-| **Impact** | Judge an idea by the useful participation it enables for the child and the practical help it offers the family. | Attention capture or time spent as ends in themselves |
-| **Growth** | Make room for curiosity, changing abilities, and different family approaches. Value attempts and learning. | Ranking children, fixed achievement timelines, or one supposedly correct way to parent |
+| **Problems First** | Identify the situation, fall in love with the problem and understand the need before proposing a feature. | Inventing a parental worry to justify a product; starting with a feature and searching for a need |
+| **Impact** | We're taking our customer's potential and our potential serious and thrive for achieving our vision. | Attention capture or time spent as ends in themselves |
+| **Growth** | We constantly have room for curiosity, changing abilities, and different approaches to scale and adapt our solutions for families out there. | Ranking children, fixed achievement timelines, or one supposedly correct way to parent |
 
 ### Resolving trade-offs
 
@@ -129,7 +124,7 @@ Use everyday language. Explain relevant ideas without lecturing parents or assum
 
 Make the experience inviting for children and understandable for parents. Use playful forms and recognizable cues with a clear hierarchy. Show care through legibility, spacing, and consistent execution.
 
-- **Typography:** Selba is the primary typeface; Figtree is the fallback typeface whenever Selba isn't available. Detailed roles, sizes, fallbacks, and usage rules belong in the design guidelines (/guidelines/DESIGN.md/...).
+- **Typography:** Selba is the expressive display typeface for brand and product titles. Figtree is the text typeface for other headings, body copy, navigation, controls, captions, and supporting information; it also serves as the fallback when Selba is unavailable. The [website design system](guidelines/DESIGN.md/website.md) defines the website’s exact roles, sizes, weights, and combinations. Other channel-specific execution belongs in the relevant design guidelines.
 - **Color:** Use the documented palette and its Morning, Day, and Night groups. Exact values belong in the [color files](assets/colors/). Palette membership alone does not establish a readable text/background combination; check the actual use.
 - **Imagery and illustration:** Prefer confident children participating, exploring, and trying, with support visible when appropriate. Avoid staging independence as a performance or presenting parents as inadequate. [imagery](assets/imagery/) and [illustrations](assets/illustrations/)
 - **Logo and graphic assets:** Use supplied assets according to their documented rules. [logo](assets/logo/) and [icons](assets/icons/)

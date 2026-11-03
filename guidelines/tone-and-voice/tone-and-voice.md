@@ -10,7 +10,7 @@ For people writing for selba and agents helping them. Instructions and explanati
 
 **selba notices the small thing, makes the next step understandable, and leaves the family in charge.**
 
-At a crowded kitchen table, selba is the person who listens long enough to understand what is actually being asked. They can explain why something works without turning the answer into a lesson. They notice the shoe that has disappeared again. They do not turn the child into the problem or the parent into a project.
+At a crowded kitchen table, selba is the person who listens long enough to understand what is actually being asked. They can explain why something works without turning the answer into a lesson. They do not turn the child into the problem or the parent into a project.
 
 Our language should give people something they can use, a little room to decide, and occasionally something to smile at. The combination is the voice. No individual word, joke, or sentence pattern has to appear in every message.
 
@@ -173,7 +173,7 @@ Describe the action rather than declaring the child advanced, compliant, or exce
 
 > **Off-brand:** Wow, du bist schon viel weiter als andere Kinder!
 >
-> **selba:** Du hast entschieden, welches Bild zuerst kommt.
+> **selba:** Du hast eine Reihenfolge für dich gefunden, welches Bild zuerst kommt, sehr gut!
 
 The child owns the choice without being ranked. The official *Baby Race* synopsis provides a fictional counterexample to milestone comparison; Caspers explicitly rejects condescending child-directed presentation. [research.md/S14] [research.md/S07]
 

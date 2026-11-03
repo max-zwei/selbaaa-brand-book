@@ -11,13 +11,13 @@ The selba palette contains a shared Primary color, three groups for Morning, Day
 | Token | Palette role | sRGB | C (%) | M (%) | Y (%) | K (%) |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
 | `primary` | Primary | `#EB341B` | 0 | 78 | 89 | 8 |
-| `morning` | Morning — main | `#F5D91B` | 0 | 11 | 89 | 4 |
+| `morning` | Morning — main | `#499ACD` | 64 | 25 | 0 | 20 |
 | `morning-pink` | Morning — secondary pink | `#F77EAD` | 0 | 49 | 30 | 3 |
-| `morning-blue` | Morning — secondary blue | `#499ACD` | 64 | 25 | 0 | 20 |
+| `morning-sun` | Morning — secondary yellow | `#F5D91B` | 0 | 11 | 89 | 4 |
 | `morning-lime` | Morning — secondary lime | `#BBE132` | 17 | 0 | 78 | 12 |
-| `day` | Day — main | `#00CC99` | 100 | 0 | 25 | 20 |
+| `day` | Day — main | `#FF7852` | 0 | 53 | 68 | 0 |
 | `day-blue` | Day — secondary blue | `#18498F` | 83 | 49 | 0 | 44 |
-| `day-coral` | Day — secondary coral | `#FF7852` | 0 | 53 | 68 | 0 |
+| `day-torquoise` | Day — secondary torquoise | `#00CC99` | 100 | 0 | 25 | 20 |
 | `day-purple` | Day — secondary purple | `#AC5BAC` | 0 | 47 | 0 | 33 |
 | `night` | Night — main | `#0B1946` | 84 | 64 | 0 | 73 |
 | `night-lavender` | Night — secondary lavender | `#B0AEC9` | 12 | 13 | 0 | 21 |
@@ -31,13 +31,13 @@ The selba palette contains a shared Primary color, three groups for Morning, Day
 ```yaml
 colors:
   primary: [0, 78, 89, 8]
-  morning: [0, 11, 89, 4]
+  morning: [64, 25, 0, 20]
   morning-pink: [0, 49, 30, 3]
-  morning-blue: [64, 25, 0, 20]
+  morning-yellow: [0, 11, 89, 4]
   morning-lime: [17, 0, 78, 12]
-  day: [100, 0, 25, 20]
+  day: [0, 53, 68, 0]
   day-blue: [83, 49, 0, 44]
-  day-coral: [0, 53, 68, 0]
+  day-torquoise: [100, 0, 25, 20]
   day-purple: [0, 47, 0, 33]
   night: [84, 64, 0, 73]
   night-lavender: [12, 13, 0, 21]
@@ -46,3 +46,7 @@ colors:
   ink: [0, 0, 0, 88]
   screen: [0, 0, 0, 0]
 ```
+
+### Application
+
+Use the documented groups and retain their token names when assigning roles in a design. Palette membership alone does not establish a readable text/background combination; check contrast in the actual application. Morning, Day, and Night are palette groups, not automatic light/dark themes or status colors.
