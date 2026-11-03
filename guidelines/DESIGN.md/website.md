@@ -10,12 +10,12 @@ description: Website foundations, components, patterns, and combinations documen
 
 selba makes room for “I can do it myself.” The website combines expressive Selba display titles, clear Figtree text, family photography, playful drawn icons, and generous spacing. It addresses parents and caregivers in German-speaking DACH while keeping children’s participation at the center. Apply the intent, evidence boundaries, and naming rules in [BRAND.md](../../BRAND.md).
 
-**Documented:** 2 November 2026. **Owner:** Max Pinkert. **Scope:** the supplied [Atoms page](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=0-1) and [Web page](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=1-2). 
+**Documented:** 3 November 2026. **Owner:** Max Pinkert. **Scope:** the current [Atoms page](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=0-1) and [Web page](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=1-2), including the four-step Shop set. Measurements and style names below come from read-only inspection of the live file.
 
 ### How to use this document
 
-- Figma defines the visual designs. Preserve its combinations, colors, sizing, and state differences as intentional. This document records them; it does not redesign them.
-- [digital.md](../../assets/colors/digital.md) owns palette names and exact values. Map Figma’s legacy names by value, as described below, without changing the appearance.
+- Figma defines the visual designs. Preserve its observed combinations, colors, sizing, and state differences rather than silently redesigning them. An observed difference is not proof of intent; unresolved source inconsistencies are recorded below.
+- [digital.md](../../assets/colors/digital.md) owns palette names and exact values. Map differing Figma names by value, as described below, without changing the appearance or silently renaming either source.
 - Measurements describe the supplied reference frames and components. They do not establish breakpoints, maximum page widths, or fixed content heights at every viewport.
 - YAML keys for typography and component recipes below are document identifiers for observed Figma styles and combinations, not a claim that identically named variables already exist in Figma. Numeric spacing and radius keys retain the existing variable names.
 - “To be defined” means the supplied sources do not establish a decision. Do not fill these gaps with assumed behavior.
@@ -41,11 +41,24 @@ Use the existing palette without introducing replacement hues:
 
 Changes originate in digital.md.
 
+### Source naming and value conflicts
+
+Use actual variable values and applied fills to identify the designed appearance; several visible Atoms swatch labels disagree with them.
+
+| Figma source | Actual value / website mapping | Unresolved discrepancy |
+| --- | --- | --- |
+| `morning` | `#499ACD` → `morning` | Swatch `1:13` prints `#F5D91B` |
+| `morning-sun` | `#F5D91B` → digital.md `morning-yellow` | Swatch `1:52` is named `morning-blue` and prints `#499ACD`; its visible name is `morning-sun` |
+| `day` | `#FF7852` → `day` | Swatch `1:18` prints `#00CC99` |
+| `day-torquoise` | `#00CC99` → digital.md table `day-torquoise` | Swatch `1:49` displays `day-torqouise` and `#FF7852`; digital.md YAML also spells the key `day-torqouise` |
+
+These are naming/label conflicts, not permission to exchange the colors. Other palette values agree with digital.md. Figma additionally supplies `Transparent/screen`, `Transparent/ink`, and `Transparent/Primary` at 20% opacity. `Transparent/Day` is the turquoise `#00CC99` at 90%, `Transparent/Morning` is the yellow `#F5D91B` at 90%, and `Transparent/Night` is `#0B1946` at 90%; those names do not imply that the current main Day or Morning colors should replace their underlying values. Preserve the source treatment where used rather than inventing new palette aliases.
+
 ### Designed combinations
 
 | Pattern | Surface | Text / foreground |
 | --- | --- | --- |
-| Neutral hero, product section, FAQ | `screen` | `ink` |
+| Neutral hero, Shop, FAQ | `screen` | `ink` |
 | Morning hero | `morning` | `screen` |
 | Day hero | `day` | `screen` |
 | Night hero | `night` | `screen` |
@@ -53,9 +66,11 @@ Changes originate in digital.md.
 | CTA band | `night-sand` | `screen` heading/body; white filled button with `ink` label |
 | Steps | `night-sand`, `night-sage`, `night-lavender`, `night` panels | `screen` |
 | Testimonial cards | `day`, `morning`, `night` | `screen` |
+| Shop benefit pills | `night-sand` | `ink` |
+| Shop confirmation panels | `night-sage` | `ink` |
 | Footer | `ink` | `screen` |
 
-These are the intended combinations in the supplied Figma designs. Palette groups do not imply automatic light/dark themes or status colors. The three-color testimonial row is a specific website combination; it does not change the separate palette restrictions for illustration overlays.
+These are the combinations in the supplied Figma designs, not a declaration that every combination passes accessibility requirements. Palette groups do not imply automatic light/dark themes or global status colors; the green Shop panels are a local confirmation treatment. The three-color testimonial row is a specific website combination; it does not change the separate palette restrictions for illustration overlays. See unresolved accessibility conflicts below.
 
 ## Typography
 
@@ -65,23 +80,24 @@ Use the supplied [Selba Bold WOFF2](../../assets/fonts/Selba/Selba-Bold.woff2) a
 
 ### Observed type scale
 
-Source: [Typography](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=7-150). All listed styles have zero percent letter spacing. Line heights below convert Figma percentages to unitless multipliers.
+Source: [Typography](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=7-150) and the live local text-style inventory. The table omits the shared `Typography/` prefix but preserves style names. All listed styles have zero percent letter spacing. Line heights below convert Figma percentages to unitless multipliers.
 
 | Figma style | Document token | Family / weight | Size | Line height |
 | --- | --- | --- | --- | --- |
 | Title | `title` | Selba / 700 | 96px | 1.1 |
 | Title (S) | `title-s` | Selba / 700 | 64px | 1.1 |
 | Title (XS) | `title-xs` | Selba / 700 | 40px | 1.1 |
-| Heading 1 | `heading-1` | Figtree / 400 | 96px | 1.2 |
-| Heading 2 | `heading-2` | Figtree / 400 | 64px | 1.2 |
-| Heading 3 | `heading-3` | Figtree / 400 | 40px | 1.2 |
-| Heading 4 | `heading-4` | Figtree / 400 | 32px | 1.2 |
-| Heading 5 | `heading-5` | Figtree / 400 | 24px | 1.2 |
-| Heading 6 | `heading-6` | Figtree / 400 | 20px | 1.2 |
-| Body - Tall | `body-tall` | Figtree / 400 | 20px | 1.4 |
-| Body - Bold | `body-bold` | Figtree / 900 | 16px | 1.2 |
+| H1 | `heading-1` | Figtree / 400 | 96px | 1.2 |
+| H2 | `heading-2` | Figtree / 400 | 64px | 1.2 |
+| H3 | `heading-3` | Figtree / 400 | 40px | 1.2 |
+| H4 | `heading-4` | Figtree / 400 | 32px | 1.2 |
+| H5 | `heading-5` | Figtree / 400 | 24px | 1.2 |
+| H6 | `heading-6` | Figtree / 400 | 20px | 1.2 |
+| Body-Tall | `body-tall` | Figtree / 400 | 20px | 1.4 |
+| Body-Bold | `body-bold` | Figtree Black / 900 | 16px | 1.2 |
 | Body | `body` | Figtree / 400 | 16px | 1.4 |
-| Body Small | `body-small` | Figtree / 400 | 12px | 1.2 |
+| Body-Small | `body-small` | Figtree / 400 | 12px | 1.2 |
+| Body - Small - Bold | `body-small-bold` | Figtree Black / 900 | 12px | 1.2 |
 | Captions | `captions` | Figtree / 400 | 8px | 1.2 |
 
 ```yaml
@@ -164,6 +180,12 @@ typography:
     fontWeight: 400
     lineHeight: 1.2
     letterSpacing: 0em
+  body-small-bold:
+    fontFamily: Figtree
+    fontSize: 12px
+    fontWeight: 900
+    lineHeight: 1.2
+    letterSpacing: 0em
   captions:
     fontFamily: Figtree
     fontSize: 8px
@@ -172,7 +194,7 @@ typography:
     letterSpacing: 0em
 ```
 
-Desktop heroes use `title`; the mobile Brand hero and A patterns use `title-s`; mobile B patterns, the product name, and CTA title use `title-xs`. Buttons use `body-tall`, `body`, and `body-small` for Large, Default, and Small respectively. FAQ questions use `heading-6` and answers use `body`. Match these roles rather than treating every visually prominent heading as Selba.
+Desktop heroes use `title`; the mobile Brand hero and A patterns use `title-s`; mobile B patterns, the Shop product name, and CTA title use `title-xs`. Buttons use `body-tall`, `body`, and `body-small` for Large, Default, and Small respectively. Navigation hover uses the 12px/900 `body-small-bold` treatment. Shop field labels use `body-small`, field values and purchase/waitlist/community actions use `body-tall`, and consent copy is 8px with emphasized spans. FAQ questions use `heading-6` and answers use `body`. Match these roles rather than treating every visually prominent heading as Selba. The styles named “Bold” actually use Figtree Black at weight 900; do not silently substitute 700.
 
 ## Layout
 
@@ -204,7 +226,7 @@ spacing:
   "144": 144px
 ```
 
-Product, FAQ, Video, and Steps desktop sections have 96px outer padding. Testimonials use 96px horizontally and 64px vertically. The footer uses 96px horizontally and 40px vertically. Navigation uses 24px padding. These are distinct patterns, not a single universal section-padding rule.
+Shop, FAQ, Video, and Steps desktop sections have 96px outer padding. Testimonials use 96px horizontally and 64px vertically. The footer uses 96px horizontally and 40px vertically. Navigation uses 24px padding. These are distinct patterns, not a single universal section-padding rule.
 
 Auto-layout groups preserve related content: title/body/action stacks; horizontal button groups; gallery/thumbnail stacks; FAQ lists; and card rows. Source-specific dimensions and distributed alignment remain local to their components. Values such as the 210px gap between the two product columns are composition measurements, not additions to the shared spacing scale.
 
@@ -228,8 +250,8 @@ rounded:
   full: 9999px
 ```
 
-- **4px:** action buttons, main product-gallery image, and the image window inside the expanded Steps panel.
-- **8px:** available foundation radius; no additional website role is assigned here.
+- **4px:** action buttons, Shop field presentations, main product-gallery image, and the image window inside the expanded Steps panel.
+- **8px:** Shop confirmation panels in Community and Success.
 - **16px:** mobile A image window, dropdown container and image window, Steps panels, and testimonial cards.
 - **Full:** feature pills beneath the product gallery.
 - **Square:** full-width section surfaces and navigation-link containers retain their observed zero radius. Zero is an observed property, not an additional Figma radius variable.
@@ -246,7 +268,8 @@ Logo and icon outlines come from supplied SVG artwork. Preserve their proportion
 | Hero | [28:3928](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=28-3928) | 14 variants: 5 Web, 1 Mobile Brand, 4 Mobile A, 4 Mobile B |
 | Navbar | [44:9823](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=44-9823) | Default and Dropdown |
 | FAQ | [49:9915](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=49-9915) | Question-only and question-with-answer appearances |
-| Sections | [49:10114](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=49-10114) | Product, FAQ, Video, CTA, Steps, Testimonial, Footer |
+| Sections | [49:10114](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=49-10114) | FAQ, Video, CTA, Steps, Testimonial, Footer |
+| Shop | [68:926](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=68-926) | `Step=Product`, `Waitlist`, `Community`, `Success`; Product is the default |
 | Logo | [2:84](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=2-84) | default / 1:1 / 1:2 × ink / screen / color × Large / Default / Small |
 | Icons | [36:8227](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=36-8227) | Supplied artwork in screen, ink, and primary |
 
@@ -268,9 +291,9 @@ Primary color buttons use `primary` with `screen` text. Screen filled buttons us
 | Default | 16px / 1.4 | 16 / 24px | 15 / 24px | 8px | 16px |
 | Small | 12px / 1.2 | 12 / 16px | 11 / 16px | 8px | 12px |
 
-With both icons visible, filled specimens measure 64, 48, and 36px high; outlined specimens measure 56, 48, and 36px. The **Large Primary-color hover** specimen intentionally uses 16px icons and measures **56px** high versus **64px** in Default. Preserve this difference. Large Screen and Ink filled hover specimens remain 64px high.
+With both icons visible, filled specimens measure 64, 48, and 36px high; outlined specimens measure 56, 48, and 36px. The **Large Primary-color hover** specimen (`16:2873`) uses 16px icons and measures **56px** high versus **64px** and 24px icons in Default (`16:2875`). Large Screen and Ink filled hover specimens remain 64px high; Large outlined variants remain 56px. Preserve these measured differences in source documentation, but treat their intended runtime behavior as an unresolved design inconsistency, not an approved hover-resize rule.
 
-Height depends on the visible children in the source: text-only instances are smaller, including the 32px-high Small navigation CTA, 43px-high Default hero buttons, and 54px-high Large product CTA. Do not impose one fixed height across all instances or use text-layer ink bounds as CSS line-height values.
+Height depends on the visible children in the source: text-only instances are smaller, including the 32px-high Small navigation CTA, 43px-high Default split-hero buttons, and 54px-high Large Shop actions. The desktop Brand action group is also 54px high. Do not impose one fixed height across all instances or use text-layer ink bounds as CSS line-height values.
 
 Navigation is a separate text-and-description pattern with a 12px label, directional icon, optional 8px subtext, and 8px internal gap. Its outer padding is 12px vertically and 16px horizontally. Hover changes the label to weight 900 and changes its measured width. The `Color=Screen` variant name does not mean all nested text is white: the standalone sample uses `ink`; footer instances supply the light treatment shown in the composition.
 
@@ -280,14 +303,14 @@ Pressed, focus, disabled, loading, and icon-only interaction specifications are 
 
 All hero recipes reuse the Button and typography foundations. The Brand hero combines full-bleed family photography, a centered Selba title, two actions, and the horizontal white logo near the bottom. Its desktop title group is 738px wide, with 64px between title and actions. The mobile Brand composition has a 327px-wide content group, 64px top padding, and a 125 × 40px logo.
 
-The Web Neutral/Morning/Day/Night pattern is a text-and-image split: a 439px-wide text column at x=96, and a 535px-wide portrait image at x=745 extending to the right edge. The source portrait is 803px high and cropped by the 720px hero. The text column uses 96px top/bottom padding, a 64px title-to-content gap, and a 40px body-to-actions gap. Neutral shows a filled primary action plus an outlined Ink action; the range-colored desktop variants show one filled primary action.
+The Web Neutral/Morning/Day/Night pattern is a text-and-image split: a 439px-wide text column at x=96, and a 535px-wide portrait image at x=745 extending to the right edge. The source portrait is 803px high and cropped by the 720px hero. The text column uses 96px top/bottom padding and `SPACE_BETWEEN` distribution between title and content; configured item spacing is 144px for Neutral and 64px for the range-colored variants, not a fixed rendered title-to-content gap. The body-to-actions gap is 40px. Neutral shows a filled primary action plus an outlined Ink action; the range-colored desktop variants show one filled primary action.
 
 | Type | Web | Mobile A | Mobile B | Surface token |
 | --- | --- | --- | --- | --- |
 | Brand | `28:3927` | Mobile Default `28:3922`; no A/B pair | — | Photograph |
 | Neutral | `28:3926` | `28:3916` | `28:3919` | `screen` |
-| Morning | `28:3924` | `28:3915` | `28:3920` | `morning-blue` |
-| Day | `28:3923` | `28:3914` | `28:3918` | `day-coral` |
+| Morning | `28:3924` | `28:3915` | `28:3920` | `morning` |
+| Day | `28:3923` | `28:3914` | `28:3918` | `day` |
 | Night | `28:3925` | `28:3921` | `28:3917` | `night` |
 
 Each ID resolves in the [Hero set](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=28-3928). Preserve the differences between these compositions:
@@ -305,15 +328,36 @@ Dropdown (`44:9821`) combines the same top bar with a 24px gap and a 1280 × 280
 
 Opening/closing triggers, keyboard behavior, sticky positioning, overlay behavior, destinations, and mobile navigation are **to be defined**. The displayed labels establish the pattern, not published routes or product availability.
 
-### Product section
+### Shop: Product, Waitlist, Community, Success
 
-Source: [Type=Product, 49:9884](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=49-9884). Reference size: 1280 × 814px; white surface, 96px padding, two 439px columns separated by 210px.
+Source: [Shop, 68:926](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=68-926). Product is now part of this set, not a `Type=Product` variant of Sections. The property axis is `Step`; all four desktop specimens are **1280 × 814px**, on `screen`, with **96px padding**, **two 439px columns**, and a **210px column gap**. Their inner columns are 622px high. No Mobile Shop variant is supplied.
 
-The left column combines a gallery and three feature pills, separated by 40px. The main image is 439 × 300px with 4px radius. Five 69 × 47px thumbnails sit below with an 8px gallery-to-thumbnail gap and 24px thumbnail gaps. The source repeats the same photograph; do not invent a completed five-image product set. Feature pills are 439 × 65px, `night-sand`, full radius, 16px vertical / 24px horizontal padding, 16px icon-to-text spacing, and an Ink asterisk icon. Pills are separated by 16px.
+#### Shared gallery and benefits
 
-The right column combines a range label, 40px Selba product name, description, price, and a full-column-width Large Primary purchase button aligned near the bottom. “Schlafsteine”, “abends”, “39,90 €”, and “Jetzt kaufen” are visible sample content. The price and product facts require a current verified product source before publication; this design document does not establish them.
+All four steps retain the same left column: a gallery and three benefit pills, separated by 40px. The main image is 439 × 300px with 4px radius. Five 69 × 47px thumbnails sit below with an 8px gallery-to-thumbnail gap and 24px thumbnail gaps. The source repeats the same photograph; do not invent a completed five-image product set. Benefit pills are 439 × 65px, `night-sand`, full radius, 16px vertical / 24px horizontal padding, 16px icon-to-text spacing, and a 24px Ink asterisk icon. Pills are separated by 16px and contain placeholder body copy.
 
-Gallery selection behavior, thumbnail active states, checkout destination, stock behavior, and mobile composition are **to be defined**.
+#### Step inventory
+
+| Step / source | Right-column composition | Visible action |
+| --- | --- | --- |
+| [Product, 49:9884](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=49-9884) | `abends` range label in Night, 40px Selba “Schlafsteine”, 16px description, 20px “39,90 €” price; purchase action near the bottom | Full-width Large Primary “Jetzt kaufen” |
+| [Waitlist, 68:925](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=68-925) | Product heading with directional icon, description and price retained; 20px out-of-stock invitation, E-Mail field, separate email consent row | Full-width Large Primary “Auf Warteliste eintragen” |
+| [Community, 68:924](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=68-924) | Product heading with directional icon, E-Mail confirmation presentation and green thank-you panel; invitation to the WhatsApp community, Telefonnummer field, separate phone consent row | Full-width Large Primary “Für Produkttests anmelden” |
+| [Success, 68:923](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=68-923) | Product heading, Telefonnummer confirmation presentation and green community confirmation panel | Full-width Large outlined Ink “Zurück zur Website” |
+
+The four compositions show a product/waitlist/community sequence, not an implemented state machine. In particular, the Community invitation is **optional**: email waitlist consent is not consent to WhatsApp participation or product-test contact. Do not make a phone number a prerequisite for the email waitlist. The static source does not specify the optional skip control or its destination.
+
+#### Fields, consent and confirmation treatment
+
+- **Field presentation:** 439 × 70px label/control stack with an 8px gap; 12px label over a 439 × 54px control, 4px radius, 1px Ink border, 19px vertical / 24px horizontal padding, and 20px text. Waitlist shows “E-Mail” / “...”; Community shows “Telefonnummer” / “+49 ...”. These are sample values, not a phone-format validation specification.
+- **Source implementation boundary:** the visible field shells are reused Large Secondary Ink **Button instances**, not a dedicated Input component set. Entry presentations have no fill. The Community email and Success phone presentations reuse `State=Hover`, giving them a 20%-opacity Ink fill. This records their appearance only; it does not establish disabled, read-only, valid, or focused field semantics.
+- **Consent rows:** 439 × 26px, with a 24px `ink/box-unchecked` icon, 16px gap, and 399px-wide 8px copy. The email row describes storing/using the address for restock notification; the phone row separately describes storing/using the number for product-test contact. Both mention withdrawal and the Datenschutzerklärung. The form stack uses 16px gaps between the labeled field, consent row, and action. Only the unchecked presentation is shown here; do not invent a checked-state design or consent submission rules.
+- **Confirmation panels:** Community (`68:804`) and Success (`68:845`) use `night-sage` with Ink content, 439 × 143px, 8px radius, 24px padding, and 16px between the 24px icon and 16px text. Community uses `ink/rocket` with a restock thank-you message. Success uses `ink/heart-fun` and a message about later community contact. This does not establish a global success-color token.
+- **Actions:** the shown Shop actions are 439 × 54px, text-only, with 20px labels. Primary actions use 20px vertical / 40px horizontal padding; the outlined return action uses 19px vertical / 40px horizontal padding.
+
+Visible copy includes an out-of-stock statement, a promise of restock notification, and future community contact. These are design examples, not evidence of current inventory, a working integration, approved legal consent, delivery timing, or verified product facts. Price, benefits, consent wording and destinations require current product/legal approval before publication; preserve the distinction from visual fidelity.
+
+**To be defined:** gallery selection and active thumbnails; purchase/stock routing and triggers between steps; back/return/optional-skip destinations; editable versus read-only field behavior; required fields and consent enforcement; focus, checked, error, validation, loading, and submission-failure states; keyboard/screen-reader behavior; email/phone processing and WhatsApp integration; and responsive/mobile Shop composition. Do not derive these from static frames or fabricate a mobile Shop design.
 
 ### FAQ item and section
 
@@ -349,7 +393,7 @@ Use the supplied outlined star and person artwork. Preserve the source’s diffe
 
 ### Footer
 
-[Type=Footer, 49:10755](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=49-10755) is 1280 × 320px on Ink, with 96px horizontal / 40px vertical padding. It combines:
+[Type=Footer, 49:10755](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=49-10755) is 1280 × 350px on Ink, with 96px horizontal / 40px vertical padding. It combines:
 
 - A white horizontal logo, a short 12px brand paragraph, and an 8px legal-link row with 12px gaps.
 - Product and resource link groups using the Navigation label/description pattern and directional icons, with 24px between groups.
@@ -369,11 +413,13 @@ Paths below are relative to this document. Match the source frame’s crop and l
 | Product gallery | [07-final-stone-detail-landscape.png](../../assets/imagery/products/night/07-final-stone-detail-landscape.png), named in the Figma layers |
 | CTA product artwork | [schlafsteine.png](../../assets/imagery/products/night/schlafsteine.png), named in the Figma layer |
 | Expanded Steps image | [04-shared-story-landscape.png](../../assets/imagery/products/night/04-shared-story-landscape.png), named in the Figma layer |
-| Navigation logo | [1:1 color Small SVG](<../../assets/logo/Format=1_1, Color=color, Size=Small.svg>) |
-| Brand hero horizontal white logo | [default Screen Small SVG](<../../assets/logo/Format=default, Color=screen, Size=Small.svg>) |
+| Navigation logo | [1:1 color SVG](<../../assets/logo/svg/Format=1_1, Color=color, Size=Large.svg>); scale the supplied vector to the 32 × 32px Small instance |
+| Brand hero horizontal white logo | [default Screen SVG](<../../assets/logo/svg/Format=default, Color=screen, Size=Large.svg>); scale the supplied vector to the 125 × 40px Small instance |
 | Other logo placements | [Logo assets](../../assets/logo/); match format, color, and size to the instance |
 | FAQ/navigation direction | [Ink chevrons](../../assets/icons/ink/chevrons.svg) · [Screen chevrons](../../assets/icons/screen/chevrons.svg) |
 | Product feature pills | [Ink asterisk](../../assets/icons/ink/asterisk.svg) |
+| Shop confirmation panels | [Ink rocket](../../assets/icons/ink/rocket.svg) · [Ink heart-fun](../../assets/icons/ink/heart-fun.svg) |
+| Shop directional icon | [Ink arrow-right](../../assets/icons/ink/arrow-right.svg); preserve the source orientation |
 | Steps | [Screen alarm-clock](../../assets/icons/screen/alarm-clock.svg) |
 | Ratings / attribution | [Screen star](../../assets/icons/screen/star.svg) · [Screen person](../../assets/icons/screen/person.svg) |
 | Other button icons | [Existing SVG icon families](../../assets/icons/), matched to the actual selected instance |
@@ -381,7 +427,7 @@ Paths below are relative to this document. Match the source frame’s crop and l
 
 Image-fill matches without explicit layer filenames are visual matches, not verified byte-identical Figma exports. Do not replace a source crop with an unrelated image. Illustration overlays are available assets but are not added to the inspected website patterns by this specification. If a later design uses one, pair it with its documented source photograph and preserve the overlay’s coordinate frame. Do not apply it to a different crop without checking alignment.
 
-Logo format colons are represented by underscores in local filenames. The folder includes duplicate-suffixed 1_2 Screen exports; those filenames do not prove which is a color variant. Exact selection for an unused 1:2 color instance is **to be defined**. Social marks visible in the footer have no identified matching files in the supplied icon families.
+Logo format colons are represented by underscores in local filenames. Current exports are grouped under `assets/logo/svg/` and `assets/logo/png/`, with Large files for each format/color combination; use the vector artwork at the documented instance size rather than linking nonexistent Small exports. Social marks visible in the footer have no identified matching files in the supplied icon families. The Shop consent rows use Figma's `ink/box-unchecked`; no matching `box`-named Ink export was found locally. Its export/asset mapping remains unresolved; do not substitute unrelated artwork.
 
 ### Component tokens
 
@@ -432,6 +478,11 @@ components:
     textColor: "{colors.ink}"
     rounded: "{rounded.full}"
     typography: "{typography.body}"
+  shop-confirmation-panel:
+    backgroundColor: "{colors.night-sage}"
+    textColor: "{colors.ink}"
+    rounded: "{rounded.8}"
+    typography: "{typography.body}"
   dropdown:
     backgroundColor: "{colors.screen}"
     rounded: "{rounded.16}"
@@ -460,20 +511,29 @@ components:
 
 ### Combining the patterns
 
-Reuse the combinations designed inside each component: photo + title + action(s) + logo in Brand Hero; gallery + feature pills + product information + purchase action in Product; question/answer items + dividers in FAQ; compact/expanded panels in Steps; rating + quote + attribution in Testimonial; and logo + brand paragraph + navigation + portrait in Footer.
+Reuse the combinations designed inside each component: photo + title + action(s) + logo in Brand Hero; shared gallery + benefit pills + step-specific product/form/confirmation content in Shop; question/answer items + dividers in FAQ; compact/expanded panels in Steps; rating + quote + attribution in Testimonial; and logo + brand paragraph + navigation + portrait in Footer.
 
 The Web page presents separate reusable component sets. Their canvas order is not an approved website sitemap or page sequence. Final page inventory, section order, navigation destinations, and rules for combining sections into complete pages are **to be defined**. Do not treat repeated sample actions as separate confirmed user journeys.
 
+## Unresolved source and publication conflicts
+
+- **Color names and swatch labels:** the specific Figma/digital.md discrepancies are recorded in Colors. Applied fills and variable values establish the reference appearance; the conflicting labels and token spelling still require reconciliation in their owning sources.
+- **Large button sizing:** Primary-red Default is 64px high but Hover is 56px; Large Secondary is 56px in both states. Other Large filled colors remain 64px. Do not call this intentional or normalize it without a design decision.
+- **“Bold” typography naming:** `Typography/Body-Bold` and `Typography/Body - Small - Bold` use Figtree Black/900, not 700. Whether to rename those styles or change their weight remains an owner decision; this document retains the actual 900 values.
+- **Shop control semantics:** field-looking nodes reuse Button variants, including Hover for confirmation presentations. Real input/confirmation states, checked artwork, optional-community exit, validation, submission and consent behavior are not specified by those instances.
+- **Accessibility versus visual fidelity:** the source's white text on `morning`, `day`, `night-sand`, `night-sage`, `night-lavender`, and `primary` includes normal-text combinations below the WCAG AA 4.5:1 threshold. Some also fall below the 3:1 large-text threshold. Preserving the reference does not establish accessible production use. Resolve contrast, the 8px consent/legal copy, focus treatment and interaction accessibility with the design owner rather than silently recoloring or claiming conformance.
+- **Publication evidence:** placeholder benefits/descriptions, price, out-of-stock and contact promises, consent/legal copy, sample testimonials, routes and integrations remain unverified. Mobile Shop and other missing responsive sections remain undefined; the existing mobile Hero A/B testing requirement is unchanged.
+
 ## Do's and Don'ts
 
-- **Do** preserve the supplied Figma design choices, including the exact color combinations, mobile alternatives, component-specific spacing, icon visibility, and intentional hover-size change.
-- **Do** reuse canonical palette tokens and supplied assets; map legacy Figma names by value.
+- **Do** preserve the supplied Figma combinations, mobile alternatives, component-specific spacing and icon visibility; record unresolved differences instead of assuming intent.
+- **Do** reuse canonical palette tokens and supplied assets; map differing Figma names by actual value.
 - **Do** use Selba for display titles and Figtree for the documented text and control roles.
 - **Do** retain mobile A and B and run the required A/B test once its specification is defined.
 - **Do** keep children active in the story and preserve the photograph’s meaningful gestures and product details when matching crops.
 - **Do** follow the brand’s factual boundaries: use verified product information and traceable real testimonials.
 - **Don’t** import the generic template’s fonts, palette, components, or example rules into selba.
-- **Don’t** infer missing breakpoints, mobile sections, form patterns, animation timing, navigation behavior, or routes from a static frame.
-- **Don’t** invent inputs, checkboxes, radio buttons, chips, tooltips, or validation states merely because the generic format mentions them. These are not supplied website components.
+- **Don’t** infer missing breakpoints, mobile sections, additional form states, animation timing, navigation behavior, or routes from a static frame.
+- **Don’t** treat Shop's supplied email/phone fields and consent rows as a complete form-control library, or invent radio buttons, tooltips, validation states, or additional controls merely because a generic format mentions them.
 - **Don’t** turn sample copy, prices, star counts, or persona stories into claims of verified product or customer facts.
 - **Don’t** add illustrations to existing compositions simply because overlays are available.
