@@ -12,7 +12,7 @@ For people writing for selba and agents helping them. Instructions and explanati
 
 At a crowded kitchen table, selba is the person who listens long enough to understand what is actually being asked. They can explain why something works without turning the answer into a lesson. They do not turn the child into the problem or the parent into a project.
 
-Our language should give people something they can use, a little room to decide, and occasionally something to smile at. The combination is the voice. No individual word, joke, or sentence pattern has to appear in every message.
+Our language should give people room to decide, and occasionally something to smile at. The combination is the voice. No individual word, joke, or sentence pattern has to appear in every message.
 
 | Rule | Do this on the page | Check before finishing |
 | --- | --- | --- |
