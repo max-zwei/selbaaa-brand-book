@@ -10,9 +10,9 @@ description: Website foundations, components, patterns, and combinations documen
 
 selba makes room for “I can do it myself.” The website combines expressive Selba display titles, clear Figtree text, family photography, playful drawn icons, and generous spacing. It addresses parents and caregivers in German-speaking DACH while keeping children’s participation at the center. Apply the intent, evidence boundaries, and naming rules in [BRAND.md](../../BRAND.md).
 
-**Documented:** 5 November 2026. **Owner:** Max Pinkert. **Scope:** the current [Atoms page](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=0-1) foundations and [Web page](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=1-2) component inventory, including all supplied mobile variants. Measurements, text styles, visibility, and the limited prototype wiring below come from read-only inspection of the live file.
+**Documented:** 7 November 2026. **Owner:** Max Pinkert. **Scope:** the current [Atoms page](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=0-1) foundations and [Web page](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=1-2) component inventory, including all supplied mobile variants. Measurements, text styles, visibility, and the limited prototype wiring below come from read-only inspection of the live file.
 
-**Latest sync:** re-inspected the Atoms palette, grids, spacing, radius, all 15 local text styles, 27 Logo variants, 195 Icon components, and all 76 Web variants across Button, Hero, Navbar, FAQ, Sections, Shop, and Steps. Updated the mobile Navbar's inset dropdown and narrower portrait/resource column, including its remaining sizing inconsistency; refreshed all four Navbar variants after the latest source update. Corrected the current lowercase `Transparent/*` names and their matching-base-color, 20%-opacity aliases. The other documented component geometry, typography, icon overrides, and limited prototype wiring remain unchanged. Static reference compositions do not establish breakpoints or runtime behavior.
+**Latest sync — 7 November 2026:** compared all 76 Web variants across Button, Hero, Navbar, FAQ, Sections, Shop, and Steps, including descendant geometry, text, styles, image treatments, icon instances/paints, and reactions. Navigation labels now use 16px Body / Body-Bold, with 4px vertical padding inside their label/icon group. Updated the taller desktop Navbar and Default-size CTA, inset desktop dropdown with a new newsletter presentation and wide portrait crop, mobile dropdown dimensions, and both footer navigation compositions. Mobile Footer is now 865.32px high; its newsletter consent is 28px high. Mobile Steps expanded headings now use 24px H5, with a 262px copy group and a 101px distributed media gap. The 15 local typography foundations remain unchanged; these are component role/layout changes, not new tokens. Hero, FAQ, Shop, and the other section patterns retain their documented appearances and limited prototype wiring. Static references do not establish breakpoints or runtime behavior.
 
 ### How to use this document
 
@@ -196,7 +196,7 @@ typography:
     letterSpacing: 0em
 ```
 
-Desktop heroes use `title`; the mobile Brand hero uses `title-s`; the other mobile heroes, Shop product names, and CTA titles use `title-xs`. Buttons use `body-tall`, `body`, and `body-small` for Large, Default, and Small respectively. Regular 12px `body-small` uses 1.4 line height, including Small buttons, default navigation labels, Shop field labels, mobile Shop benefits, larger testimonial-card attribution, smaller testimonial-card quotes, and the footer paragraph. Larger testimonial quotes use `body`; smaller-card attribution uses 8px `captions`. Navigation hover uses the distinct 12px/900 `body-small-bold` treatment at 1.2 line height; the mobile dropdown's “Produkte” heading uses 16px/900 `body-bold`. Desktop Shop field values and actions use `body-tall`; mobile field values, waitlist/community actions, and return action use `body`, while mobile Product's purchase action retains `body-tall`. The 8px `captions` style uses 1.4 line height (11.2px), including navigation descriptions, Shop consent, and footer headings, newsletter copy, and legal links; consent privacy links are underlined. Desktop FAQ questions use `heading-6`, mobile questions use `body`, and answers use `body` on both devices. Match these roles rather than treating every prominent heading as Selba. Styles named “Bold” use Figtree Black/900, not 700.
+Desktop heroes use `title`; the mobile Brand hero uses `title-s`; the other mobile heroes, Shop product names, and CTA titles use `title-xs`. Buttons use `body-tall`, `body`, and `body-small` for Large, Default, and Small respectively. Regular 12px `body-small` uses 1.4 line height, including Small buttons, Shop field labels, mobile Shop benefits, larger testimonial-card attribution, smaller testimonial-card quotes, and the footer paragraph. Larger testimonial quotes use `body`; smaller-card attribution uses 8px `captions`. Navigation labels now use 16px `body`; hover uses 16px/900 `body-bold` at 1.2 line height, also used by the mobile dropdown's “Produkte” heading. Desktop Shop field values and actions use `body-tall`; mobile field values, waitlist/community actions, and return action use `body`, while mobile Product's purchase action retains `body-tall`. The 8px `captions` style uses 1.4 line height (11.2px), including navigation descriptions, Shop consent, and footer/dropdown newsletter headings, consent copy, and legal links; consent privacy links are underlined. Desktop FAQ questions use `heading-6`, mobile questions use `body`, and answers use `body` on both devices. Expanded Steps headings use `heading-4` on desktop and now `heading-5` on mobile. Match these roles rather than treating every prominent heading as Selba. Styles named “Bold” use Figtree Black/900, not 700.
 
 ## Layout
 
@@ -298,11 +298,11 @@ Primary color buttons use `primary` with `screen` text. Screen filled buttons us
 
 With “Jetzt anmelden” and both icons visible, filled specimens measure **291 × 64px** (Large), **207 × 48px** (Default), and **156 × 36px** (Small); outlined specimens are **277 × 56px**, **209 × 48px**, and **158 × 36px** respectively. The **Large Primary-color Hover** specimen (`16:2873`) instead uses 16px icons and measures **275 × 56px**, versus **291 × 64px** and 24px icons in Default (`16:2875`). Large Screen and Ink filled Hover specimens remain 64px high; Large outlined variants remain 56px. These frame dimensions exclude the outside hover stroke. Preserve the measured differences in source documentation, but treat their intended runtime behavior as an unresolved design inconsistency, not an approved hover-resize rule.
 
-Height depends on the visible children in the source: text-only instances are smaller, including the 32px-high Small navigation CTA, 43px-high Default split-hero buttons, and 54px-high Large Shop actions. The desktop Brand action group is also 54px high. Do not impose one fixed height across all instances or use text-layer ink bounds as CSS line-height values.
+Height depends on the visible children in the source: text-only instances are smaller, including the 32px-high Small mobile-hero CTA, 43px-high Default desktop Navbar CTA and split-hero buttons, and 54px-high Large Shop actions. The desktop Brand action group is also 54px high. Do not impose one fixed height across all instances or use text-layer ink bounds as CSS line-height values.
 
-Navigation is a separate text-and-description pattern with a 12px / 1.4 label, 16px directional icons, optional 8px / 1.4 subtext, and 8px internal gaps. Its outer padding is 12px vertically and 16px horizontally; the standalone Default and Hover specimens measure **164 × 87px** and **168 × 87px**. Hover changes the label to weight 900 at 1.2 line height and changes its measured width; retain this distinction from the regular label. The `Color=Screen` variant name does not mean all nested text is white: the standalone sample uses `ink`; footer instances override their text and chevrons to Screen.
+Navigation is a separate text-and-description pattern with a **16px / 1.4 Body label**, 16px directional icons, optional 8px / 1.4 subtext, and 8px internal gaps. Its outer padding is 12px vertically and 16px horizontally; the inner horizontal label/icon group now adds **4px top/bottom padding** and no horizontal padding. The standalone Default (`36:4213`) and Hover (`44:8500`) specimens measure **191 × 84px** and **197 × 84px**. Hover changes the label to **16px/900 Body-Bold at 1.2 line height** and changes its measured width; retain this distinction from the regular label. The `Color=Screen` variant name does not mean all nested text is white: the standalone sample uses `ink`; footer instances override their text and chevrons to Screen.
 
-Composed icon overrides remain significant: Navbar's “Produkte” retains an Ink down arrow; dropdown links and FAQ retain Ink chevrons; CTA uses Ink chevrons; Steps actions and footer actions retain Screen chevrons. Hero and Shop actions and field presentations remain text-only. Do not replace those with the standalone default arrow or assume a Button default change automatically overrides every consumer. The re-inspected Navbar, Shop, and FAQ dimensions and typography remain as documented below.
+Composed icon overrides remain significant: Navbar's “Produkte” retains an Ink down arrow; dropdown links and FAQ retain Ink chevrons; CTA and the new desktop-dropdown newsletter action use Ink chevrons; Steps actions and footer actions retain Screen chevrons. Hero and Shop actions and field presentations remain text-only. Do not replace those with the standalone default arrow or assume a Button default change automatically overrides every consumer. Navigation's changed text size and inner padding propagate to Navbar and Footer; Shop and FAQ retain their documented dimensions and typography.
 
 No prototype reactions were found on Button variants or descendants. Pressed, focus, disabled, loading, and icon-only interaction specifications are **to be defined**. The presence of a Hover variant does not establish a hover trigger or animation timing.
 
@@ -328,17 +328,21 @@ The former mobile A variants and A/B property are no longer present in the live 
 
 ### Navigation
 
-Default (`44:9822`) is 1280 × 88px on `screen`, with 24px outer insets, a 32 × 32px color 1:1 logo at left, and “Produkte”, “Über uns”, and a Small Primary action at right. The right-hand group is 326 × 40px, with 24px between its 186px-wide link group and 116 × 32px CTA. “Produkte” is a 105 × 40px Navigation instance: its label is followed by an 8px gap and a visible 16px `ink/arrow-down`; the leading icon and description are hidden. “Über uns” is 81 × 32px and vertically centered with the CTA. Preserve the default regular navigation label treatment rather than substituting the active bold appearance.
+Default (`44:9822`) is now **1280 × 96px** on `screen`, with 24px outer insets, a 32 × 32px color 1:1 logo at x=24, y=32, and “Produkte”, “Über uns”, and a **Default Primary** action at right. The right-hand group is **401 × 48px**, with 24px between its **218px-wide** link group and **159 × 43px** CTA. “Produkte” is a **121 × 48px** Navigation instance: its 16px regular label is followed by an 8px gap and a visible 16px `ink/arrow-down`; the leading icon and description are hidden. “Über uns” is **97 × 43px** and vertically centered with the CTA. Preserve the default regular navigation label treatment rather than substituting the active bold appearance.
 
-Dropdown (`44:9821`) is **1280 × 392px** overall. Its 1280 × 88px top bar is followed by a **16px gap** and a **1280 × 288px** Screen panel with a **4px inside Ink outline at 20% opacity** and 16px corner radius. The top-level “Produkte” link uses the bold Hover treatment and measures 109 × 40px; its link group expands to 190px and the full right-hand group to 330px, retaining the 24px gap before the CTA. The panel has 40px vertical / 96px horizontal padding; including the stroke, the 532 × 103px menu starts at x=100px, y=44px and the 200px-square rounded image starts at x=980px, y=44px. Three range groups sit 24px apart and are labeled “morgens”, “tagsüber”, and “abends”, using Morning blue, Day coral, and Night respectively. Their current link labels are “Zur Warteliste”, “Zur Warteliste”, and “Schlafsteine”; descriptions remain placeholder copy.
+Dropdown (`44:9821`) is now **1280 × 311px** overall. Its **1280 × 96px** top bar is followed by a **16px gap** and a **1280 × 199px wrapper** (`136:1170`) with **40px horizontal insets**, placing the **1200 × 199px** Screen panel (`36:4388`) at x=40, y=112 in the component. The panel retains a **4px inside Ink outline at 20% opacity** and 16px corner radius, now with **40px padding on every side** and 40px gaps between its three columns. The top-level “Produkte” uses the 16px bold Hover treatment and measures **126 × 48px**; its link group is **223px** and full right-hand group **406px**, retaining the 24px CTA gap. Inside the panel, the **532 × 111px** menu begins at x=44, y=44 (padding plus stroke). Three range groups sit 24px apart, labeled “morgens”, “tagsüber”, and “abends” in 12px Morning blue, Day coral, and Night. Their 16px link labels are “Zur Warteliste”, “Zur Warteliste”, and “Schlafsteine”; descriptions remain 8px placeholder copy.
+
+The new middle column is a **250 × 93px newsletter presentation** (`136:1192`) at x=616, y=44 inside the desktop panel. Its 8px heading reads “zum newsletter anmelden”; after an 8px gap, a **196 × 32px** “Deine E-Mail” shell and **46 × 32px** icon-only action sit 8px apart. Both reuse Small Secondary Ink Buttons, with 1px Ink outlines and 4px radius; the field has 12px text and the action a 12px Ink chevron. A **250 × 39px** consent row follows after 8px, with a 16px Ink unchecked-box drawing, 8px gap, and **226px-wide** 8px copy. Its wording matches desktop Footer, including the unresolved “miR” capitalization and underlined privacy reference. This is a visual form presentation, not a working subscription or a new Input component.
+
+The desktop dropdown's right column is now a **250 × 111px**, 16px-radius portrait window (`36:4415`) at x=906, y=44 inside the panel. It clips a **251 × 376px** drawing-family photograph (`36:4414`) at x=0, y=−63. Preserve this wide crop rather than the former 200px-square window.
 
 Mobile closed appearance is [`State=State4`, 90:1646](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=90-1646): 375 × 64px, Screen, 16px vertical / 24px horizontal padding, 32px color logo at left and 32px `ink/asymmetric-parallels` menu artwork at right. Desktop links and the primary CTA are not shown in this bar.
 
-Mobile open appearance is [`State=State3`, 90:1653](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=90-1653): **375 × 464px**, retaining the same bar and menu icon, then a 16px gap. A new **375 × 384px wrapper** (`120:5441`) at y=80 has **24px horizontal padding**, placing the dropdown (`90:1661`) at x=24 with a **327 × 384px** size rather than spanning the full frame width. The panel retains 16px radius, 24px internal padding, and a 4px inside Ink outline at 20% opacity. Its menu begins at x=28, y=28 inside the panel (padding plus stroke), or x=52, y=108 in the overall component. The **162 × 328px** left column still stacks a 16px/900 “Produkte” heading and the three range groups with 8px gaps. Range labels remain 12px in Morning/Day/Night; links are 12px Ink with 16px chevrons and 8px placeholder descriptions.
+Mobile open appearance is [`State=State3`, 90:1653](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=90-1653): now **375 × 488px**, retaining the same bar and menu icon, then a 16px gap. The **375 × 408px wrapper** (`120:5441`) at y=80 has **24px horizontal padding**, placing the dropdown (`90:1661`) at x=24 with a **327 × 408px** size. The panel retains 16px radius, 24px internal padding, and a 4px inside Ink outline at 20% opacity. Its menu begins at x=28, y=28 inside the panel (padding plus stroke), or x=52, y=108 overall. The **162 × 352px** left column stacks the 16px/900 “Produkte” heading and three range groups with 8px gaps. Range labels remain 12px in Morning/Day/Night; links now use **16px Ink labels**, 16px chevrons, and 8px placeholder descriptions. No newsletter column is composed in this mobile appearance.
 
-A 40px column gap now leads to a **69px-wide** right column at x=230 inside the dropdown. Its clipped portrait window is **69 × 216px**, with 16px radius; the source photograph stays **208 × 313px** at x=−56, y=−29 inside that window, so the new width creates a narrower crop rather than a scaled-down image. After 16px come the right-aligned “Über Uns”, “Blog”, and “Hilfe” links, still without descriptions or directional icons. Their Button instances retain regular 12px labels and 12px vertical / 16px horizontal padding. The **82px-wide “Über Uns” instance starts at x=−13 within the 69px column**, extending into the column gap; record this source sizing inconsistency rather than silently shrinking its padding or text. No separate primary CTA or replacement close icon is shown.
+A 40px column gap leads to a **69 × 352px** right column at x=230 inside the dropdown. Its clipped portrait window is now **69 × 207px**, with 16px radius; the photograph remains **208 × 313px** at x=−56, y=−29. After 16px come the right-aligned “Über Uns”, “Blog”, and “Hilfe” links in a **69 × 129px** stack, without descriptions or directional icons. Each Button is **43px high**, with regular **16px** labels, 12px vertical / 16px horizontal outer padding, and the shared 4px vertical inner label-group padding. The **99px-wide “Über Uns” instance starts at x=−30 within the 69px column**, extending into the column gap; record this source sizing inconsistency rather than silently shrinking padding or text. No separate primary CTA or replacement close icon is shown.
 
-No prototype reactions were found on any Navbar variant or its descendants. Opening/closing triggers, keyboard behavior, sticky positioning, overlay behavior, and destinations remain **to be defined**. `State4` and `State3` are the actual source names, not approved semantic state labels. Static menu appearances do not establish published routes or product availability.
+No prototype reactions were found on any Navbar variant or its descendants, including the desktop newsletter presentation. Opening/closing triggers, keyboard behavior, sticky positioning, overlay behavior, destinations, and newsletter entry, consent, submission, success/error behavior and processing remain **to be defined**. The icon-only newsletter action has no specified accessible-name/focus behavior. `State4` and `State3` are the actual source names, not approved semantic state labels. Static menu appearances do not establish published routes or product availability.
 
 ### Shop: Product, Waitlist, Community, Success
 
@@ -435,7 +439,7 @@ Every desktop reference is now **1280 × 637px**, with 96px padding and 24px gap
 
 Desktop compact panels have 40px top/bottom and **zero horizontal padding**, centered 32px Screen alarm-clock icons, and 90°-rotated 32px / 1.2 Figtree headings. They use `SPACE_BETWEEN`; configured 200px item spacing is not a fixed rendered gap. Expanded panels now use a **horizontal** layout, 40px padding, and a **24px gap** between equal-width copy and portrait columns: **307 × 365px** each for Steps 1–3 and **353 × 365px** each for Step 4. Copy contains a 32px icon and 16px label with a 16px gap; 24px to the heading/body group; a 32px / 1.2 heading and 16px / 1.4 body separated by 24px; then **96px** before the 130 × 36px Small Secondary Screen “Mehr erfahren” action with trailing 12px Screen chevrons. The image window has **8px radius** and clips a **559 × 373px** photograph at x=−113, y=−4. This replaces the former short landscape window below the copy.
 
-Mobile Steps **1–3 are 375 × 887px; Step 4 is 375 × 863px**. All use 64px vertical / 24px horizontal padding and **12px gaps** between four vertically stacked 327px-wide, 8px-radius panels. Expanded panels remain **327 × 555px**, with 24px padding and a **40px gap** between the **279 × 323px** copy group and **279 × 144px** image window. Steps **1 and 3 place copy before the image**; Steps **2 and 4 place the image before copy**. The image has 4px radius and clips the 467 × 311px photograph at x=0, y=−50. Copy retains a 24px Screen alarm-clock, 16px label, 16px icon-to-label gap, 24px between label/description/action, a 32px / 1.2 heading, 16px / 1.4 body with 24px heading-to-body spacing, and the same 130 × 36px Small outlined Screen action.
+Mobile Steps **1–3 are 375 × 887px; Step 4 is 375 × 863px**. All use 64px vertical / 24px horizontal padding and **12px gaps** between four vertically stacked 327px-wide, 8px-radius panels. Expanded panels remain **327 × 555px**, with 24px padding and vertical **`SPACE_BETWEEN`** alignment. Their copy groups are now **279 × 262px**, with **24px / 1.2 H5 headings**, rather than 32px H4. The **279 × 144px** image window is separated from copy by a **101px measured gap**; the configured 40px `itemSpacing` is not the rendered gap under distributed alignment. Steps **1 and 3 place copy before the image** (copy y=24, image y=387 inside the panel); Steps **2 and 4 place image before copy** (image y=24, copy y=269). The image retains 4px radius and the 467 × 311px photograph at x=0, y=−50. Copy retains a 24px Screen alarm-clock, 16px label, 16px icon-to-label gap, 24px between label/description/action, 16px / 1.4 body with 24px heading-to-body spacing, and the same 130 × 36px Small outlined Screen action.
 
 Mobile compact panels are **327 × 48px** with 12px vertical / 24px horizontal padding, except the panel immediately following the expanded panel in Steps 1–3, which is **327 × 72px** with **24px padding on every side**. Thus the taller compact panel is sage in Step 1, lavender in Step 2, and night in Step 3; Step 4 has only 48px compact panels. All use 24px Screen icons and unrotated 20px / 1.4 Figtree labels, with `SPACE_BETWEEN` rather than a literal 200px gap. Preserve icon placement: Step 1's compact sage/night icons are left and lavender right; Step 2's compact sand/night icons are left and lavender right; Step 3's compact sage/night icons are left and sand right; Step 4's compact sage/sand icons are left and lavender right.
 
@@ -466,19 +470,19 @@ Use the supplied outlined star and person artwork. The differing size/fill treat
 
 - A left column with an additional 40px top inset: a Small white horizontal logo measuring approximately 108.44 × 34.7px, followed after 24px by a 254px-wide 12px / 1.4 brand paragraph. The newsletter group follows the brand-information group after 40px.
 - A 254 × 93px newsletter presentation with 8px vertical gaps: the 8px / 1.4 heading “zum newsletter anmelden”; a 200 × 32px “Deine E-Mail” field shell and 46 × 32px icon-only action separated by 8px; then a 16px white unchecked-box drawing, **8px gap**, and **230px-wide** 8px / 1.4 consent text. The 254 × 39px consent row starts 54px below the newsletter group's top; checkbox and text are top-aligned, with text at x=24px. The field and action reuse Small Secondary Screen Button instances with 1px white outlines and 4px radii; the field label is 12px / 1.4 and the action contains a 12px chevron icon. These are visual presentations, not evidence of editable input or working newsletter submission.
-- Product and resource columns, each 161px wide, using 8px / 1.4 headings (“Produkte”, “Ressourcen”), 12px / 1.4 Navigation labels, 8px / 1.4 descriptions, and 16px directional icons. Product labels are “Schlafsteine”, “Zur Warteliste”, and “Zur Warteliste”; resource labels are “Über uns”, “Blog”, and “Hilfe”. Descriptions remain placeholder copy. These instances keep `ink/chevrons` as their selected icon component but override its actual vector paint to **Screen**, matching the white text; do not render Ink merely from that component name. Desktop footer instances remove the standard Navigation left padding; the last item in each column also removes bottom padding.
+- Product and resource columns, each 161px wide, using 8px / 1.4 headings (“Produkte”, “Ressourcen”), now **16px / 1.4 Navigation labels**, 8px / 1.4 descriptions, and 16px directional icons. Product labels are “Schlafsteine”, “Zur Warteliste”, and “Zur Warteliste”; resource labels are “Über uns”, “Blog”, and “Hilfe”. Descriptions remain placeholder copy. These instances keep `ink/chevrons` as their selected icon component but override its actual vector paint to **Screen**, matching the white text; do not render Ink merely from that component name. Desktop footer instances remove the standard Navigation left padding; the last item in each column also removes bottom padding. The first two instances in each column are **161 × 95px**, the last **162 × 83px**, starting at y=6, 101, and 196 beneath the heading; the final instance therefore exceeds its 161px column width by 1px. Their label/icon groups retain the new 4px top/bottom inner padding.
 - Three approximately 24px social marks with 16px gaps, right-aligned above the 625 × 301.7px navigation/portrait row with 16px separation. That row has 24px gaps between the two link columns and a 255px-wide portrait/legal column. The portrait window is 255 × 271.7px with 16px radius, clipping the supplied drawing-family image. Legal links now sit 24px below the image, distributed with `SPACE_BETWEEN` across the full 255px width, rather than below the brand paragraph.
 
 The current paragraph reads: “Manchmal braucht ein eigener Versuch etwas Zeit und jemanden, der den Reißverschluss festhält. Mit selba möchten wir solchen Versuchen mehr Platz im Familienalltag geben. Dafür entwickeln wir einfache, spielerische Werkzeuge, die zum Mitmachen einladen und Raum für euren eigenen Weg lassen.” Preserve its supplied hierarchy and regular Body-Small treatment.
 
 The newsletter consent reads: “Ich bin damit einverstanden, dass selba meine E-Mail-Adresse speichert und nutzt, um miR den Newsletter zu schicken. Weitere Informationen finde ich in der Datenschutzerklärung.” The privacy reference is underlined; the source capitalization “miR” is retained here as an editorial issue, not silently corrected or treated as approved legal copy.
 
-[Mobile Footer, 91:1934](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=91-1934) is now **375 × 819.32px** on Ink, with 40px vertical / 24px horizontal padding, 40px gaps between major groups, and centered cross-axis alignment. Its supplied order differs from desktop:
+[Mobile Footer, 91:1934](https://www.figma.com/design/bquEWK6I7VBANubD3RHJLp/selba?node-id=91-1934) is now **375 × 865.32px** on Ink, with 40px vertical / 24px horizontal padding, 40px gaps between major groups, and centered cross-axis alignment. Its supplied order differs from desktop:
 
 1. **Centered** white horizontal logo, approximately **101 × 32.32px**, at x=137, y=40.
-2. A **327 × 207px** product-link stack with **no “Produkte” heading**. All three Navigation instances are **327 × 69px**, with centered label/icon groups and center-aligned 299px-wide descriptions. Labels remain 12px, chevrons 16px, and descriptions 8px; chevron vector paint is overridden to Screen. Each instance uses top/right/bottom/left padding of **12 / 16 / 16 / 12px** and 8px between its label group and description. Preserve these asymmetric insets rather than carrying over desktop's zero-left/last-item-zero-bottom treatment.
-3. A **327 × 124px** image/resources row: **242.47 × 124px**, 16px-radius portrait crop on the left, a 12px gap, and a 72.53px-wide right column. “Über uns”, “Blog”, and “Hilfe” are right-aligned without the desktop resource heading, descriptions, or directional icons. Three approximately 16px social marks sit below those links, with 12px gaps and 24px separation from the link stack.
-4. The **327px-wide brand paragraph**, then a **24px gap** before a **327 × 93px newsletter**. It keeps 8px internal gaps, an 8px heading, a **273 × 32px** email shell, 8px gap, and the **46 × 32px** icon-only submit presentation. Consent uses a 16px unchecked drawing, 8px gap, and **303px-wide** 8px / 1.4 text; row height is 39px. Small Secondary Screen styling, 4px radii, and 1px outlines remain. The visible email text is 12px; submit's text is hidden and its 12px chevrons remain visible.
+2. A **327 × 231px** product-link stack at y=112.32 with **no “Produkte” heading**. All three Navigation instances are now **327 × 77px**, with centered label/icon groups and center-aligned 299px-wide descriptions. Labels are **16px**, chevrons 16px, and descriptions 8px; chevron vector paint is overridden to Screen. Each instance retains top/right/bottom/left outer padding of **12 / 16 / 16 / 12px**, adds the shared **4px vertical inner label-group padding**, and keeps 8px between that group and description. Preserve these asymmetric insets rather than carrying over desktop's zero-left/last-item-zero-bottom treatment.
+3. A **327 × 157px** image/resources row at y=383.32: a **234 × 157px**, 16px-radius portrait crop on the left, a 12px gap, and an **81px-wide** right column. The 261 × 392px source photograph is at x=−7, y=−117.32 within its window. “Über uns”, “Blog”, and “Hilfe” use **16px regular labels**, right-aligned without the desktop resource heading, descriptions, or directional icons. Their instances measure **81 × 31px**, **48 × 43px**, and **50 × 43px**, forming a 117px-high stack; the first omits outer top padding and all omit outer right padding. Three approximately 16px social marks sit below with 12px gaps and 24px separation from the links.
+4. The **327px-wide, 93px-high brand paragraph** begins at y=580.32, then a **24px gap** precedes the now **327 × 82px newsletter**. It keeps 8px internal gaps, an 8px heading, a **273 × 32px** email shell, 8px gap, and **46 × 32px** icon-only submit presentation. Consent uses a 16px unchecked drawing, 8px gap, and **303px-wide** 8px / 1.4 text; its row is now **28px high**, with a source line separator before “Weitere Informationen”. Small Secondary Screen styling, 4px radii, and 1px outlines remain. The visible email text is 12px; submit's text is hidden and its 12px chevrons remain visible.
 5. Legal links distributed across the full **327px width**, 40px after the brand/newsletter group, rather than immediately beneath the image as on desktop.
 
 The source legal labels remain Impressum, Datenschutz, AGBs, and Sicherheit, all 8px / 1.4. No reactions were found on either Footer variant or descendants. Legal/newsletter consent copy, link descriptions, routes, social profile destinations, exported social-mark assets, newsletter processing and submission states, and breakpoint rules remain **to be defined**. Repeated waitlist labels do not establish distinct destinations or availability. The icon-only newsletter action does not resolve its accessible name, focus, validation, checked-consent, success, or error behavior.
@@ -509,7 +513,7 @@ Paths below are relative to this document. Match the source frame’s crop and l
 | Steps actions / footer directions | [Screen chevrons](../../assets/icons/screen/chevrons.svg); Steps and newsletter buttons select this component, while footer Navigation instances select Ink chevrons with a verified Screen paint override |
 | Ratings / attribution | [Screen star](../../assets/icons/screen/star.svg) · [Screen person](../../assets/icons/screen/person.svg) |
 | Other button icons | [Existing SVG icon families](../../assets/icons/), matched to the actual selected instance |
-| Optional illustration layers | [Brand overlays](../../assets/illustrations/brand/) · [Night overlays](../../assets/illustrations/product/night/), with their corresponding mockups |
+| Optional illustration layers | [Brand overlays](../../assets/illustrations/brand/) · [Schlafsteine overlays](../../assets/illustrations/product/schlafsteine/), with their corresponding mockups |
 
 Image-fill matches without explicit layer filenames are visual matches, not verified byte-identical Figma exports. Do not replace a source crop with an unrelated image. Illustration overlays are available assets but are not added to the inspected website patterns by this specification. If a later design uses one, pair it with its documented source photograph and preserve the overlay’s coordinate frame. Do not apply it to a different crop without checking alignment.
 
@@ -554,6 +558,11 @@ components:
     typography: "{typography.body}"
   button-small:
     typography: "{typography.body-small}"
+  button-navigation:
+    typography: "{typography.body}"
+    hoverTypography: "{typography.body-bold}"
+    labelGroupVerticalPadding: "{spacing.4}"
+    descriptionTypography: "{typography.captions}"
   hero-neutral:
     backgroundColor: "{colors.screen}"
     textColor: "{colors.ink}"
@@ -590,7 +599,7 @@ components:
   navbar:
     backgroundColor: "{colors.screen}"
     desktopReferenceWidth: 1280px
-    desktopReferenceHeight: 88px
+    desktopReferenceHeight: 96px
     mobileReferenceWidth: 375px
     mobileReferenceHeight: 64px
     horizontalInset: "{spacing.24}"
@@ -599,16 +608,26 @@ components:
     backgroundColor: "{colors.screen}"
     rounded: "{rounded.16}"
     topBarToPanelGap: "{spacing.16}"
-    desktopPanelReferenceWidth: 1280px
-    desktopPanelReferenceHeight: 288px
+    desktopPanelSideInset: "{spacing.40}"
+    desktopPanelReferenceWidth: 1200px
+    desktopPanelReferenceHeight: 199px
     mobileWrapperReferenceWidth: 375px
     mobilePanelSideInset: "{spacing.24}"
     mobilePanelReferenceWidth: 327px
-    mobilePanelReferenceHeight: 384px
+    mobilePanelReferenceHeight: 408px
     strokeWidth: 4px
     strokeAlign: inside
     strokeColor: "{colors.ink}"
     strokeOpacity: 0.2
+  dropdown-newsletter:
+    referenceWidth: 250px
+    referenceHeight: 93px
+    fieldReferenceWidth: 196px
+    actionReferenceWidth: 46px
+    controlReferenceHeight: 32px
+    consentTextReferenceWidth: 226px
+    stackGap: "{spacing.8}"
+    controlStyle: button-secondary-ink
   cta-band:
     backgroundColor: "{colors.night-sand}"
     textColor: "{colors.screen}"
@@ -633,7 +652,11 @@ components:
     panelGap: "{spacing.12}"
     panelRounded: "{rounded.8}"
     expandedPadding: "{spacing.24}"
-    expandedContentToMediaGap: "{spacing.40}"
+    expandedVerticalAlignment: space-between
+    expandedConfiguredItemSpacing: "{spacing.40}"
+    expandedMeasuredContentToMediaGap: 101px
+    expandedCopyReferenceHeight: 262px
+    expandedHeadingTypography: "{typography.heading-5}"
     expandedMediaRounded: "{rounded.4}"
     compactReferenceHeight: 48px
     followingCompactSteps1To3ReferenceHeight: 72px
@@ -665,15 +688,21 @@ components:
     backgroundColor: "{colors.ink}"
     textColor: "{colors.screen}"
     mobileReferenceWidth: 375px
-    mobileReferenceHeight: 819.32px
+    mobileReferenceHeight: 865.32px
     mobileLogoAlignment: center
     mobileProductDescriptionAlignment: center
+    mobileProductLinkReferenceHeight: 77px
+    mobileResourceRowReferenceHeight: 157px
   footer-newsletter:
     stackGap: "{spacing.8}"
     fieldToActionGap: "{spacing.8}"
     consentIconToTextGap: "{spacing.8}"
     desktopConsentTextReferenceWidth: 230px
     mobileConsentTextReferenceWidth: 303px
+    desktopReferenceHeight: 93px
+    mobileReferenceHeight: 82px
+    desktopConsentRowReferenceHeight: 39px
+    mobileConsentRowReferenceHeight: 28px
 ```
 
 ### Combining the patterns
@@ -692,7 +721,8 @@ The Web page presents separate reusable component sets. Their canvas order is no
 - **“Bold” typography naming:** `Typography/Body-Bold` and `Typography/Body - Small - Bold` use Figtree Black/900, not 700. Whether to rename those styles or change their weight remains an owner decision; this document retains the actual 900 values.
 - **Shop control semantics:** field-looking nodes still reuse Button variants, including Hover for confirmation presentations. Checked/unchecked box artwork is available, but real input/confirmation states, a composed checked-control state, optional-community exit, validation, submission and consent behavior remain unspecified. The Desktop Waitlist-root click-to-Community prototype reaction does not resolve those requirements or establish mobile wiring.
 - **Accessibility versus visual fidelity:** the source's white text on `morning`, `day`, `night-sand`, `night-sage`, `night-lavender`, and `primary` includes normal-text combinations below the WCAG AA 4.5:1 threshold. Some also fall below the 3:1 large-text threshold. The smaller testimonial cards' 20%-opacity fills against Screen further reduce contrast, and standalone Ink-filled Buttons use Ink icons. Preserving the reference does not establish accessible production use. Resolve contrast, the 8px attribution/consent/legal copy, focus treatment and interaction accessibility with the design owner rather than silently recoloring or claiming conformance.
-- **Other mobile source inconsistencies:** FAQ's `Collapsed=ON` is the answer-visible state and `OFF` question-only; its standalone Mobile items are 723px wide, while composed instances are 327px. The mobile open instance uses a 24px icon gap versus the standalone 16px. Mobile Shop field-label layers remain 439px wide inside 327px stacks, and its text-only Community action is fixed at 48px high versus Waitlist's 43px hug-height action. Navbar Mobile still uses generic `State4`/`State3` names; its newly inset 327px dropdown narrows the right column to 69px, but the 82px “Über Uns” Button extends 13px left into the column gap. Preserve observed evidence without declaring these differences intentional.
+- **Other source sizing inconsistencies:** FAQ's `Collapsed=ON` is the answer-visible state and `OFF` question-only; its standalone Mobile items are 723px wide, while composed instances are 327px. The mobile open instance uses a 24px icon gap versus the standalone 16px. Mobile Shop field-label layers remain 439px wide inside 327px stacks, and its text-only Community action is fixed at 48px high versus Waitlist's 43px hug-height action. Navbar Mobile still uses generic `State4`/`State3` names; its 327px dropdown retains a 69px right column, but the now 99px “Über Uns” Button extends **30px left** into the column gap. Desktop Footer's final Navigation instances are 162px wide in 161px columns. Preserve observed evidence without declaring these differences intentional.
+- **Newsletter presentations:** the new desktop Navbar dropdown and both Footers reuse Button shells and unchecked-box artwork, not an implemented form library. The dropdown is Ink-on-Screen while Footer is Screen-on-Ink. Source consent still contains “miR”; mobile Footer additionally places a line separator before “Weitere Informationen”. Legal approval, editable input, accessible action names, focus, consent enforcement, submission/processing and result states remain unresolved; the new desktop presentation does not establish a mobile equivalent.
 - **Publication evidence:** placeholder benefits/descriptions, price, out-of-stock and contact promises, consent/legal copy, sample testimonials, routes and integrations remain unverified. Desktop and mobile compositions are now supplied for every section family, but viewport breakpoints, intermediate layouts, and runtime behavior are not. The removed Hero A/B alternatives do not establish test results.
 
 ## Do's and Don'ts
