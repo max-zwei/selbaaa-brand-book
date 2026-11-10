@@ -14,7 +14,7 @@ Already working on something? Choose the guide that fits:
 | Design for the website | [Website design system](guidelines/DESIGN.md/website.md) | Typography, layout, components, and current Figma references |
 | Plan or select photographs | [Imagery](guidelines/imagery.md) | Photography direction, scene guidance, and review criteria |
 | Add illustrations to photographs | [Illustrations](guidelines/illustrations.md) | Drawing style, palette rules, and how overlays relate to the image |
-| Work on Schlafsteine | [Product concept](guidelines/DESIGN.md/products/Schlafsteine/product.md) | Fixed block forms, family-assigned routine stickers, intended use, and communication boundaries |
+| Work on Schlafsteine | [Product concept](guidelines/DESIGN.md/products/schlafsteine.md) | Fixed block forms, family-assigned routine stickers, intended use, and communication boundaries |
 | Understand the audience in more detail | [Parents](personas/parents/parents.md) · [Children](personas/children/children.md) · [Research](personas/research.md) | Fictional profiles alongside research sources and their limits |
 
 ## Find the right assets
